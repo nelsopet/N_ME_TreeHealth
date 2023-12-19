@@ -11,6 +11,7 @@ setwd("N_ME_TreeHealth")
 #tree_locs<-read.csv("raw_data/UMFK_MEIFSCI_tree_locations_20220614.csv", header=TRUE)
 #tree_locs_2022<-read.csv("raw_data/UMFK_MEIF_SPRUCE_2022_Active.csv", header=TRUE, encoding ='UTF-8')
 #tree_locs_2023<-read.csv("raw_data/UMFK_MEIF_2023_Active_09062023.csv", header=TRUE, encoding ='UTF-8')
+
 raw_files<-list.files("raw_data")
 raw_files
 Picea_2022<-read.csv(paste("raw_data/",raw_files[2],sep=""), header=TRUE, encoding ='UTF-8')
@@ -18,6 +19,10 @@ Populus_2021<-read.csv(paste("raw_data/",raw_files[1],sep=""), header=TRUE, enco
 
 colnames(Picea_2022)
 colnames(Populus_2021)
+
+#Get CRS from Headwall image for reprojecting shapefile coordinates
+img<-terra::rast("/Users/peternelson 1/Documents/Schoodic/lecospec_at_schoodic/Git/lecospec/Data/Ground_Validation/Imagery/BisonGulchQuads.envi")
+terra::crs(img)
 
 #Filter out trees without location information
 Populus_2021<-
@@ -86,13 +91,16 @@ Picea_2022<-filter(Picea_2022, is.na(lon_dd)==FALSE) %>%
 Populus_2021_vect<-terra::vect(Populus_2021,geom = c("lon_dd","lat_dd"))
 terra::crs(Populus_2021_vect)<-"EPSG:4269"
 Populus_2021_vect_WGS_84<-terra::project(Populus_2021_vect, "EPSG:4328")
+Populus_2021_vect_WGS_84_vec_proj<-terra::project(Populus_2021_vect_WGS_84, img)
+terra::crs(Populus_2021_vect_WGS_84_vec_proj)
+
 #Populus_2021_sf_WGS84<-sf::st_transform(Populus_2021_sf, crs = 4328)
 #Populus_2021_sf_WGS84_vec<-vect(Populus_2021_sf_WGS84)
 
 Picea_2022_sf<-sf::st_as_sf(Picea_2022,coords = c("lon_dd","lat_dd"), dim="XY",crs = 4269)
 Picea_2022_sf_WGS84<-sf::st_transform(Picea_2022_sf, crs = 4328)
 Picea_2022_sf_WGS84_vec<-vect(Picea_2022_sf_WGS84)
-
+Picea_2022_sf_WGS84_vec_proj<-terra::project(Picea_2022_sf_WGS84_vec, img)
 
 #crs_use<-terra::geom(vect(Populus_2021_sf_WGS84))
 #tree_locs_2023_vec<-terra::vect(tree_locs_2023, geom = c("lon_dd", "lat_dd"), crs = crs_use, keepgeom  = TRUE)
@@ -122,15 +130,15 @@ leaflet(tree_locs_2022_sf_WGS84_spat) %>%
 #  addTiles("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
 #           options = providerTileOptions(minZoom = 0.1, maxZoom = 1000))
 #Write shapfile to disk for use in a GIS for downstream analyses 
-writeOGR(tree_locs_sf_spat, "output/", "UMFK_MEIFSCI_tree_locations", driver = "ESRI Shapefile")
-sf::st_write(tree_locs_2022_sf, "output/UMFK_MEIFSCI_tree_locations_2022.shp", dsn = "geometry", driver = "ESRI Shapefile", append = FALSE)
-sf::st_write(tree_locs_2022_sf_WGS84, "output/UMFK_MEIFSCI_tree_2022_WGS84.shp", driver = "ESRI Shapefile", append = FALSE)
+#writeOGR(tree_locs_sf_spat, "output/", "UMFK_MEIFSCI_tree_locations", driver = "ESRI Shapefile")
+#sf::st_write(tree_locs_2022_sf, "output/UMFK_MEIFSCI_tree_locations_2022.shp", dsn = "geometry", driver = "ESRI Shapefile", append = FALSE)
+#sf::st_write(tree_locs_2022_sf_WGS84, "output/UMFK_MEIFSCI_tree_2022_WGS84.shp", driver = "ESRI Shapefile", append = FALSE)
 
-sf::st_write(tree_locs_2023_sf, "output/UMFK_MEIFSCI_tree_locations_2023.shp", dsn = "geometry", driver = "ESRI Shapefile", append = TRUE)
-sf::st_write(tree_locs_2023_sf_WGS84, "output/UMFK_MEIFSCI_tree_2023_WGS84.shp", driver = "ESRI Shapefile", append = TRUE)
-terra::writeVector(Populus_2021_vect_WGS_84, filename = "output/Populus_2021_sf_WGS84.shp", filetype= "ESRI Shapefile", overwrite = TRUE)
-  terra::writeVector(Populus_2021_vect_WGS_84, filename = "output/Populus_2021_sf_WGS84.json", filetype= "GeoJSON", overwrite = TRUE)
+#sf::st_write(tree_locs_2023_sf, "output/UMFK_MEIFSCI_tree_locations_2023.shp", dsn = "geometry", driver = "ESRI Shapefile", append = TRUE)
+#sf::st_write(tree_locs_2023_sf_WGS84, "output/UMFK_MEIFSCI_tree_2023_WGS84.shp", driver = "ESRI Shapefile", append = TRUE)
+terra::writeVector(Populus_2021_vect_WGS_84_vec_proj, filename = "output/Populus_2021_sf_WGS84.shp", filetype= "ESRI Shapefile", overwrite = TRUE)
+#terra::writeVector(Populus_2021_vect_WGS_84, filename = "output/Populus_2021_sf_WGS84.json", filetype= "GeoJSON", overwrite = TRUE)
 
-terra::writeVector(Picea_2022_sf_WGS84_vec, filename = "output/Picea_2022_sf_WGS84.shp", filetype= "ESRI Shapefile", overwrite = TRUE)
+terra::writeVector(Picea_2022_sf_WGS84_vec_proj, filename = "output/Picea_2022_sf_WGS84.shp", filetype= "ESRI Shapefile", overwrite = TRUE)
 
-terra::crs(Populus_2021_vect_WGS_84)
+terra::crs(Picea_2022_sf_WGS84_vec_proj)
