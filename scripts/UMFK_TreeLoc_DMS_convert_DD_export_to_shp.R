@@ -14,7 +14,7 @@ setwd("N_ME_TreeHealth")
 
 raw_files<-list.files("raw_data")
 raw_files
-Picea_2022<-read.csv(paste("raw_data/",raw_files[2],sep=""), header=TRUE, encoding ='UTF-8')
+Picea_2022<-read.csv(paste("raw_data/",raw_files[8],sep=""), header=TRUE, encoding ='UTF-8')
 Populus_2021<-read.csv(paste("raw_data/",raw_files[1],sep=""), header=TRUE, encoding ='UTF-8')
 
 colnames(Picea_2022)
@@ -33,7 +33,7 @@ Populus_2021<-
 Picea_2022<-
   Picea_2022 %>% 
   dplyr::filter(Location_deg_min_sec_North_nosym>0) %>%
-  dplyr::filter(Location_deg_min_sec_West.1>0)
+  dplyr::filter(Location_deg_min_sec_West>0)
 
 dim(Picea_2022)
 dim(Populus_2021)
@@ -57,7 +57,7 @@ Populus_2021$lat_dd<-angle2dec(Populus_2021$Location_deg_min_sec_North_nosym)
 Populus_2021$lon_dd<-angle2dec(Populus_2021$Location_deg_min_sec_West_nosym)*-1
 
 Picea_2022$lat_dd<-angle2dec(Picea_2022$Location_deg_min_sec_North_nosym)
-Picea_2022$lon_dd<-angle2dec(Picea_2022$Location_deg_min_sec_West.1)*-1
+Picea_2022$lon_dd<-angle2dec(Picea_2022$Location_deg_min_sec_West)*-1
 
 #Convert longitude from DMS to DD, multiply by -1 to make is W hemisphere, in a new column
 Populus_2021<-filter(Populus_2021, is.na(lon_dd)==FALSE)
@@ -78,14 +78,14 @@ names_2023<-c(
 #  dplyr::rename(Date = Sampling_Date,
 #                DBH = dbh_.0.1_in)
 
-Populus_2021<-filter(Populus_2021, is.na(lon_dd)==FALSE) %>% 
-  dplyr::select(names_2023) %>%
-  dplyr::rename(Date = Sampling_Date,
-                DBH = dbh_cm)
-Picea_2022<-filter(Picea_2022, is.na(lon_dd)==FALSE) %>% 
-  dplyr::select(names_2023) %>%
-  dplyr::rename(Date = Sampling_Date,
-                DBH = dbh_cm)
+Populus_2021<-filter(Populus_2021, is.na(lon_dd)==FALSE)# %>% 
+  #dplyr::select(names_2023)# %>%
+  #dplyr::rename(Date = Sampling_Date,
+  #              DBH = dbh_cm)
+Picea_2022<-filter(Picea_2022, is.na(lon_dd)==FALSE) #%>% 
+ # dplyr::select(names_2023) %>%
+  #dplyr::rename(Date = Sampling_Date,
+  #              DBH = dbh_cm)
 
 #Add NAD83 datum to lat_dd and lon_dd
 #Populus_2021_sf<-sf::st_as_sf(Populus_2021,coords = c("lon_dd","lat_dd"), dim="XY",crs = 4269)
@@ -98,6 +98,7 @@ terra::crs(Populus_2021_vect)<-"EPSG:4326"
 #Populus_2021_sf_WGS84_vec<-vect(Populus_2021_sf_WGS84)
 
 Picea_2022_sf<-sf::st_as_sf(Picea_2022,coords = c("lon_dd","lat_dd"), dim="XY",crs = 4269)
+Picea_2022_sf_NAD83_vec<-vect(Picea_2022_sf)
 Picea_2022_sf_WGS84<-sf::st_transform(Picea_2022_sf, crs = 4326)
 Picea_2022_sf_WGS84_vec<-vect(Picea_2022_sf_WGS84)
 #Picea_2022_sf_WGS84_vec_proj<-terra::project(Picea_2022_sf_WGS84_vec, proj_crs)
@@ -140,6 +141,6 @@ leaflet(tree_locs_2022_sf_WGS84_spat) %>%
 #sf::st_write(tree_locs_2023_sf_WGS84, "output/UMFK_MEIFSCI_tree_2023_WGS84.shp", driver = "ESRI Shapefile", append = TRUE)
 terra::writeVector(Populus_2021_vect, filename = "output/Populus_2021_sf_WGS84.shp", filetype= "ESRI Shapefile", overwrite = TRUE)
 #terra::writeVector(Populus_2021_vect_WGS_84, filename = "output/Populus_2021_sf_WGS84.json", filetype= "GeoJSON", overwrite = TRUE)
-
+terra::writeVector(Picea_2022_sf_NAD83_vec, filename = "output/Picea_2022_sf_NAD83.shp", filetype= "ESRI Shapefile", overwrite = TRUE)
 terra::writeVector(Picea_2022_sf_WGS84_vec, filename = "output/Picea_2022_sf_WGS84.shp", filetype= "ESRI Shapefile", overwrite = TRUE)
 
