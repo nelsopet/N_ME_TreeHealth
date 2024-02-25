@@ -34,31 +34,8 @@ CL2_1426_image_path
 
 canopies_path = "raw_data/geometry/hand_drawn/"
 canopies_sites<-list.files(canopies_path)[grepl("*.shp$",list.files(canopies_path))]
-#canopies<-terra::vect(paste(canopies_sites[1],canopies_sites[1])
 canopies<-lapply(1:length(canopies_sites), function(x) {terra::vect(paste(canopies_path, canopies_sites[x], sep=""))})
-#plot(canopies[[5]])
-#tst_img<-terra::rast(spruce_imgs[5])
-#windows()
-#plot(tst_img["396.345 nm"])
-#dev.off()
-#canopies<-Reduce(c,canopies)
-#Now, crop and mask image by each canopy shapefile. Functions are split into
-  #full canopies, illuminated only, and shadowed only
-        x=2
-         tst_img <- terra::rast(spruce_imgs[x])
-  
-            plot(tst_img["425.977 nm"])
-            #crs(tst_img)
-         tst_names<-names(tst_img)
-         tst_quads<-canopies[[x]]
-            plot(tst_quads, add=TRUE)
-        #metadata(tst_mask)<-tst_quads$CLASS_NAME
-         bandnames(tst_mask)<-tst_names
-            lapply(1:length(tst_quads), function (x) {
-                
-                writeRaster(tst_mask, paste("output/canopy_spectra/", tst_quads[x]$CLASS_NAME, ".ENVI",sep=""), overwrite = TRUE)})
-       rm(tst_img)
-       gc()
+
 #FULL CANOPIES#
 lapply(1:length(spruce_imgs),  
        function(x) {
@@ -80,5 +57,3 @@ lapply(1:length(spruce_imgs),
 
 tst_canopy_files<-list.files("output/canopy_spectra/")
 tst_canopy<-terra::rast(paste("output/canopy_spectra/", tst_canopy_files[1], sep=""))
-plot(tst_canopy["600.065 nm"])
-dev.off()
