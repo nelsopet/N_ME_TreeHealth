@@ -28,7 +28,7 @@ Canopy_labeled<-lapply(1:length(imgs), function(x){
   names(df)<-new_names
   df <- filter_bands(df)
   df <- df_to_speclib(df, type="spectrolab")
-  df<-spectrolab::resample(df, new_bands = seq(398, 999, 5), parallel = FALSE)
+  df<-spectrolab::resample(df, new_bands = seq(398, 999, 1), parallel = FALSE)
   
   #parse metadata from file name
   imgs_names<-gsub(".ENVI","", imgs_names) %>% as.data.frame()
@@ -42,8 +42,10 @@ Canopy_labeled<-lapply(1:length(imgs), function(x){
 
 Canopy_image_spectra<-Reduce(spectrolab::combine,Canopy_labeled)
 (as.data.frame(Canopy_image_spectra)) %>% group_by(Site, TreeID, Canopy_Type) %>% tally() %>% print(n=300)
-
+colnames(as.data.frame(Canopy_image_spectra))
 #Write full spectra
-write.csv(as.data.frame(Canopy_image_spectra), "output/speclib/spruce_canopy_speclib.csv")
+names_drop<-colnames(as.data.frame(Canopy_image_spectra)[,5:17])
+
+write.csv(as.data.frame(Canopy_image_spectra) %>% dplyr:: select(-names_drop), "output/speclib/spruce_canopy_speclib.csv")
 saveRDS(Canopy_image_spectra,"output/speclib/spruce_canopy_speclib.rds")
 
