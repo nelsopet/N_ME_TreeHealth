@@ -9,14 +9,14 @@
     <MDI key="file_type">ENVI Standard</MDI>
     <MDI key="header_offset">0</MDI>
     <MDI key="interleave">bsq</MDI>
-    <MDI key="lines">2</MDI>
-    <MDI key="samples">1</MDI>
+    <MDI key="lines">24</MDI>
+    <MDI key="samples">13</MDI>
   </Metadata>
   <PAMRasterBand band="1">
     <Description>396.345 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">6.1487082786416e-12</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.0745739787817</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
       <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
@@ -26,9 +26,9 @@
     <Description>398.197 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.023689799010754</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.074281491339207</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.01692128367722</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -36,9 +36,9 @@
     <Description>400.049 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.020293651148677</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.053128309547901</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.0076101198792458</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -46,9 +46,9 @@
     <Description>401.901 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.017141470685601</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.059357699006796</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.010713419876993</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -56,9 +56,9 @@
     <Description>403.753 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.027627611532807</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.061971858143806</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.013813805766404</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -66,9 +66,9 @@
     <Description>405.605 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.027191100642085</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.046049285680056</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.021752879023552</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -76,9 +76,9 @@
     <Description>407.457 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.026745896786451</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.045781098306179</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.0062931519933045</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0015860262792557</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -86,9 +86,9 @@
     <Description>409.309 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.018630214035511</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.047295421361923</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.010031652636826</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -96,9 +96,9 @@
     <Description>411.161 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024425370618701</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.046115092933178</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.012855459004641</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -106,9 +106,9 @@
     <Description>413.013 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.018477151170373</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.052551422268152</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.018477151170373</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0036866422742605</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -116,9 +116,9 @@
     <Description>414.865 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.021144239231944</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.047893110662699</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.017805675044656</MDI>
+      <MDI key="STATISTICS_MINIMUM">1.4716842328122e-11</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -126,9 +126,9 @@
     <Description>416.717 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024259950965643</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.048870820552111</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.018746323883533</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0042730690911412</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -136,9 +136,9 @@
     <Description>418.569 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.028279779478908</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.04773461073637</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.01675838790834</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0020674238912761</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -146,9 +146,9 @@
     <Description>420.421 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.027776500210166</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.048406701534986</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.019546426832676</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0020110202021897</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -156,9 +156,9 @@
     <Description>422.273 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.02414752356708</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.046883385628462</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.011590811423957</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0028626997955143</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -166,9 +166,9 @@
     <Description>424.125 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.036812007427216</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.048944611102343</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.0094389757141471</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.004818482324481</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -176,9 +176,9 @@
     <Description>425.977 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.028618726879358</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.045794311910868</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.01699236780405</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -186,9 +186,9 @@
     <Description>427.829 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.029015956446528</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.050854776054621</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.019948469474912</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0036152938846499</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -196,9 +196,9 @@
     <Description>429.681 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024751801043749</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.054877061396837</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.020168133080006</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.00091086461907253</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -206,9 +206,9 @@
     <Description>431.533 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.020436925813556</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.048275370150805</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.018733847886324</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0042145573534071</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -216,9 +216,9 @@
     <Description>433.385 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.023398412391543</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.048257563263178</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.022643623873591</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0029675071127713</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -226,9 +226,9 @@
     <Description>435.237 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.028393797576427</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.046279523521662</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.014196898788214</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0077877384610474</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -236,9 +236,9 @@
     <Description>437.089 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024189250543714</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.051559720188379</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.015690324828029</MDI>
+      <MDI key="STATISTICS_MINIMUM">3.3325311260546e-11</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -246,9 +246,9 @@
     <Description>438.941 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024883974343538</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.049024093896151</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.01430828589946</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0030832351185381</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -256,9 +256,9 @@
     <Description>440.793 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.021434476599097</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.04803030192852</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.013098846189678</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0041702366434038</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -266,9 +266,9 @@
     <Description>442.645 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024826234206557</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.050403270870447</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.015798512846231</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0039457571692765</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -276,9 +276,9 @@
     <Description>444.497 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024071102961898</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.04483712092042</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.01308212056756</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0051546241156757</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -286,9 +286,9 @@
     <Description>446.349 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.02603492885828</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.047707691788673</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.017523508518934</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0059991893358529</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -296,9 +296,9 @@
     <Description>448.201 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.022522980347276</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.047635611146688</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.014855582267046</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0057595851831138</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -306,9 +306,9 @@
     <Description>450.053 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.021740796044469</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.048155996948481</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.012682130560279</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0049699866212904</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -316,9 +316,9 @@
     <Description>451.905 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.023895563557744</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.04892173409462</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.014337338507175</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.003022818127647</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -326,9 +326,9 @@
     <Description>453.757 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.025570187717676</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.048401832580566</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.018635898828506</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0051273042336106</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -336,9 +336,9 @@
     <Description>455.609 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024565478786826</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.04935672134161</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.010165025480092</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0038218547124416</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -346,9 +346,9 @@
     <Description>457.461 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.026890045031905</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.052414428442717</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.01323817577213</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -356,9 +356,9 @@
     <Description>459.313 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024360658600926</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.050002817064524</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.015175492502749</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0031770702917129</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -366,9 +366,9 @@
     <Description>461.165 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.025552183389664</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.051857877522707</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016260480508208</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0023312831763178</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -376,9 +376,9 @@
     <Description>463.017 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.023761801421642</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.048850078135729</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.014139705337584</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0030421640258282</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -386,9 +386,9 @@
     <Description>464.869 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024574961513281</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.050693366676569</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016729278489947</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0040961392223835</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -396,9 +396,9 @@
     <Description>466.721 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.025001712143421</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.04793406277895</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016060153022408</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0021827779710293</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -406,9 +406,9 @@
     <Description>468.573 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.026707716286182</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.049801088869572</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.011035013012588</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0044132983312011</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -416,9 +416,9 @@
     <Description>470.425 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.023587746545672</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.051035825163126</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.013976437039673</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0047006052918732</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -426,9 +426,9 @@
     <Description>472.277 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.030257318168879</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.051829382777214</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016459800302982</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0028356027323753</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -436,9 +436,9 @@
     <Description>474.129 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.027737209573388</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.053693976253271</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.017342017963529</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0055744489654899</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -446,9 +446,9 @@
     <Description>475.981 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.029409509152174</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.053773764520884</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.014052172191441</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0038655584212393</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -456,9 +456,9 @@
     <Description>477.833 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.023698640987277</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.052819285541773</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.015043266117573</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0052829198539257</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -466,9 +466,9 @@
     <Description>479.685 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.026773998513818</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.05514632165432</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.018239291384816</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0041316817514598</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -476,9 +476,9 @@
     <Description>481.537 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.027968717738986</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.052834417670965</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016459951177239</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0036633531562984</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -486,9 +486,9 @@
     <Description>483.389 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.031329188495874</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.055592387914658</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016887294128537</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0046170777641237</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -496,9 +496,9 @@
     <Description>485.241 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.028560994192958</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.055176258087158</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.015755318105221</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0036009757313877</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -506,9 +506,9 @@
     <Description>487.093 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.027531083673239</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.055291496217251</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.017146022990346</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0047897943295538</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -516,9 +516,9 @@
     <Description>488.945 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.029874410480261</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.054998591542244</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.014814225025475</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0039119003340602</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -526,9 +526,9 @@
     <Description>490.797 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.028820155188441</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.052822384983301</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016161439940333</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0041338987648487</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -536,9 +536,9 @@
     <Description>492.649 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.026658460497856</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.056792687624693</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016695972532034</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0034243483096361</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -546,9 +546,9 @@
     <Description>494.501 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.025470120832324</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.058124274015427</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.015798961743712</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0037651229649782</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -556,9 +556,9 @@
     <Description>496.353 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.028716210275888</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.055531855672598</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.018474688753486</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0026156138628721</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -566,9 +566,9 @@
     <Description>498.205 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.026702513918281</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.056741744279861</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.015808431431651</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0048979846760631</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -576,9 +576,9 @@
     <Description>500.057 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.030214993283153</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.05542017146945</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.014675918966532</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0019551131408662</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -586,9 +586,9 @@
     <Description>501.909 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.031124187633395</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.058685146272182</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.017722165212035</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0046741412952542</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -596,9 +596,9 @@
     <Description>503.761 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.031858816742897</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.061400812119246</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.020513765513897</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0034290659241378</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -606,9 +606,9 @@
     <Description>505.613 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.02913611009717</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.062167331576347</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.017891896888614</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0053195413202047</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -616,9 +616,9 @@
     <Description>507.465 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.034439608454704</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.066029347479343</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016399731859565</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0053601316176355</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -626,9 +626,9 @@
     <Description>509.317 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.037150613963604</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.067493036389351</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.021754158660769</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0054031936451793</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -636,9 +636,9 @@
     <Description>511.169 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.034655015915632</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.070446960628033</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.02474364079535</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0061610583215952</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -646,9 +646,9 @@
     <Description>513.021 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.037754334509373</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.073522821068764</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.026004813611507</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0046622739173472</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -656,9 +656,9 @@
     <Description>514.873 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.041450168937445</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.077328003942966</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.020254272967577</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0067663742229342</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -666,9 +666,9 @@
     <Description>516.725 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.047928173094988</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.084257453680038</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.029079128056765</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0085758408531547</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -676,9 +676,9 @@
     <Description>518.577 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.048994466662407</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.090465515851974</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.02894171141088</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0092685976997018</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -686,9 +686,9 @@
     <Description>520.429 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.048682473599911</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.09713177382946</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.030614810064435</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0099103515967727</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -696,9 +696,9 @@
     <Description>522.281 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.053297847509384</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.099540017545223</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.029860947281122</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0084959594532847</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -706,9 +706,9 @@
     <Description>524.133 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.052034724503756</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10846435278654</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.035720031708479</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0093618081882596</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -716,9 +716,9 @@
     <Description>525.985 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.058522336184978</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11522651463747</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.03946552798152</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.012115738354623</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -726,9 +726,9 @@
     <Description>527.837 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.063432231545448</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.12109686434269</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.040345415472984</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.010209003463387</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -736,9 +736,9 @@
     <Description>529.689 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.066258855164051</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.12999837100506</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.043063350021839</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.011990414001048</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -746,9 +746,9 @@
     <Description>531.541 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.071721039712429</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.12926694750786</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.040221150964499</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013768199831247</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -756,9 +756,9 @@
     <Description>533.393 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.073631480336189</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.13499523699284</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.040773250162601</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.012760040350258</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -766,9 +766,9 @@
     <Description>535.245 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.071355082094669</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.13423712551594</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.044733766466379</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013720197603106</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -776,9 +776,9 @@
     <Description>537.097 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.077375754714012</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14204974472523</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.043715439736843</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013898189179599</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -786,9 +786,9 @@
     <Description>538.949 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.073844358325005</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14658676087856</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.044156938791275</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013171202503145</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -796,9 +796,9 @@
     <Description>540.801 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.077004872262478</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14550924301147</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.049241587519646</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.014968456700444</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -806,9 +806,9 @@
     <Description>542.653 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.074916742742062</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14704692363739</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.048636727035046</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013462183065712</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -816,9 +816,9 @@
     <Description>544.505 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.07460068166256</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14589098095894</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.048264753073454</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013899426907301</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -826,9 +826,9 @@
     <Description>546.357 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.080143839120865</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.15213824808598</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.050111528486013</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.014619244262576</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -836,9 +836,9 @@
     <Description>548.209 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.081142887473106</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14929236471653</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.046171169728041</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.014215153641999</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -846,9 +846,9 @@
     <Description>550.061 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.08306735008955</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.15314450860023</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.044844828546047</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.015539810061455</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -856,9 +856,9 @@
     <Description>551.913 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.079401463270187</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.15573747456074</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.048959020525217</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.016267795115709</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -866,9 +866,9 @@
     <Description>553.765 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.080085627734661</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.1576741039753</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.049841325730085</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.011993136256933</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -876,9 +876,9 @@
     <Description>555.617 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.084976896643639</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.15132437646389</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.047125000506639</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.016727354377508</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -886,9 +886,9 @@
     <Description>557.469 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.084027178585529</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.15965291857719</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.052715063095093</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.016678106039762</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -896,9 +896,9 @@
     <Description>559.321 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.078363671898842</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.15170238912106</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.049602787941694</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013524298556149</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -906,9 +906,9 @@
     <Description>561.173 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.085691221058369</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.15001982450485</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.049954663962126</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.01352362986654</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -916,9 +916,9 @@
     <Description>563.025 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.07500433921814</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14969232678413</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.049859784543514</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.011457896791399</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -926,9 +926,9 @@
     <Description>564.877 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.083249762654305</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14564907550812</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.046847015619278</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.014508778229356</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -936,9 +936,9 @@
     <Description>566.729 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.079594969749451</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14420223236084</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.047124180942774</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013962282799184</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -946,9 +946,9 @@
     <Description>568.581 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.076154112815857</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14298129081726</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.043651185929775</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013788584619761</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -956,9 +956,9 @@
     <Description>570.433 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.075016297399998</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.13349995017052</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.045244097709656</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.011930434964597</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -966,9 +966,9 @@
     <Description>572.285 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.071279793977737</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.1350662112236</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.042761497199535</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.012657257728279</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -976,9 +976,9 @@
     <Description>574.137 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.071036964654922</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.13090047240257</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.045238103717566</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.012602649629116</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -986,9 +986,9 @@
     <Description>575.989 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.066828615963459</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.12377313524485</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.040618810802698</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.013826063834131</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -996,9 +996,9 @@
     <Description>577.841 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.065414480865002</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.12284561246634</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.039331387728453</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.010976787656546</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1006,9 +1006,9 @@
     <Description>579.693 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.063756331801414</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.12015790492296</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.04189382866025</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0097172847017646</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1016,9 +1016,9 @@
     <Description>581.545 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.064756035804749</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11571119725704</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.036057032644749</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0092378333210945</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1026,9 +1026,9 @@
     <Description>583.397 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.064544834196568</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11373364925385</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.0396010838449</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.011328683234751</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1036,9 +1036,9 @@
     <Description>585.249 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.062467861920595</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11882788687944</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.035387974232435</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0081754941493273</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1046,9 +1046,9 @@
     <Description>587.101 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.060748938471079</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11457632482052</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.033147912472486</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.010141464881599</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1056,9 +1056,9 @@
     <Description>588.953 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.058409005403519</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11156938225031</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.037284884601831</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0085217347368598</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1066,9 +1066,9 @@
     <Description>590.805 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.058466751128435</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11225186288357</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.037884149700403</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0078496048226953</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1076,9 +1076,9 @@
     <Description>592.657 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.056118555366993</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.1074653416872</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.036524496972561</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0072661661542952</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1086,9 +1086,9 @@
     <Description>594.509 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.060339745134115</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10818482935429</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.034207511693239</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0076137837022543</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1096,9 +1096,9 @@
     <Description>596.361 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.062035709619522</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10771849006414</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.034617967903614</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0086235934868455</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1106,9 +1106,9 @@
     <Description>598.213 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.057990055531263</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.1077611669898</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.029314218088984</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0073349121958017</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1116,9 +1116,9 @@
     <Description>600.065 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.061868242919445</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.1088028550148</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.035715702921152</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0079558761790395</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1126,9 +1126,9 @@
     <Description>601.917 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.054069895297289</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10603561252356</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.036505497992039</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0090433033183217</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1136,9 +1136,9 @@
     <Description>603.769 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.058070100843906</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11050686985254</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.038824297487736</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0060278628952801</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1146,9 +1146,9 @@
     <Description>605.621 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.054735563695431</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10373686999083</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.030236026272178</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0082364501431584</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1156,9 +1156,9 @@
     <Description>607.473 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.055333986878395</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10424163937569</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.02965703420341</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0078196488320827</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1166,9 +1166,9 @@
     <Description>609.325 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.053188934922218</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10465579479933</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.035609543323517</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0067711211740971</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1176,9 +1176,9 @@
     <Description>611.177 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.055264234542847</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.098629549145699</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.035494916141033</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0071798320859671</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1186,9 +1186,9 @@
     <Description>613.029 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.057703495025635</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10175987333059</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.025906167924404</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0050069247372448</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1196,9 +1196,9 @@
     <Description>614.881 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.051064968109131</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.093172028660774</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.029246300458908</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0087406411767006</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1206,9 +1206,9 @@
     <Description>616.733 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.054207529872656</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.089348569512367</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.029651982709765</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0064655826427042</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1216,9 +1216,9 @@
     <Description>618.585 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.050569787621498</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.092449471354485</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.031371995806694</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0074363886378706</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1226,9 +1226,9 @@
     <Description>620.437 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.044237580150366</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.087805859744549</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.032001655548811</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0070906919427216</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1236,9 +1236,9 @@
     <Description>622.289 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.046906102448702</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.089813470840454</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.03733342513442</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0066404030658305</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1246,9 +1246,9 @@
     <Description>624.141 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.047977905720472</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.090200491249561</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.027827186509967</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0057601938024163</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1256,9 +1256,9 @@
     <Description>625.993 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.047509655356407</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.085096091032028</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.026938466355205</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0058549391105771</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1266,9 +1266,9 @@
     <Description>627.845 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.052422538399696</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.086435541510582</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.028957210481167</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0079488148912787</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1276,9 +1276,9 @@
     <Description>629.697 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.047421365976334</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.085085526108742</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.029638353735209</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0049746008589864</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1286,9 +1286,9 @@
     <Description>631.549 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.046441946178675</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.085372656583786</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.028269009664655</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0061695147305727</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1296,9 +1296,9 @@
     <Description>633.401 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.0461640432477</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.084168501198292</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.027797704562545</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0054365829564631</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1306,9 +1306,9 @@
     <Description>635.253 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.050997167825699</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.082999520003796</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.024988612160087</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0045951888896525</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1316,9 +1316,9 @@
     <Description>637.105 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.047255828976631</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.08509773761034</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.029278066009283</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0061235977336764</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1326,9 +1326,9 @@
     <Description>638.957 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.050662446767092</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.08810006082058</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.030815303325653</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0057948958128691</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1336,9 +1336,9 @@
     <Description>640.809 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.048383824527264</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.082047581672668</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.027053322643042</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0046983133070171</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1346,9 +1346,9 @@
     <Description>642.661 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.047943338751793</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.081524558365345</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.027167890220881</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0021345340646803</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1356,9 +1356,9 @@
     <Description>644.513 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.047622457146645</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.077000349760056</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.025684023275971</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.005336151458323</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1366,9 +1366,9 @@
     <Description>646.365 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.039742641150951</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.075713247060776</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.020975282415748</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0050955889746547</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1376,9 +1376,9 @@
     <Description>648.217 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.038874004036188</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.07243487983942</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.026479395106435</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0022646323777735</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1386,9 +1386,9 @@
     <Description>650.069 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.03779611736536</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.074199013411999</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.027488086372614</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0051542352885008</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1396,9 +1396,9 @@
     <Description>651.921 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.032955944538116</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.072734273970127</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.023705154657364</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0023061125539243</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1406,9 +1406,9 @@
     <Description>653.773 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.03695086017251</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.067956350743771</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.020859356969595</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0041780462488532</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1416,9 +1416,9 @@
     <Description>655.625 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.032390374690294</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.06919688731432</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.022612150758505</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0036462338175625</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1426,9 +1426,9 @@
     <Description>657.477 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.036734115332365</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.065301716327667</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.022040469571948</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0036845030263066</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1436,9 +1436,9 @@
     <Description>659.329 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.035022351890802</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.065171308815479</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.018401574343443</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0017790324054658</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1446,9 +1446,9 @@
     <Description>661.181 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.036487363278866</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.061798859387636</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.017655175179243</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0029263026081026</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1456,9 +1456,9 @@
     <Description>663.033 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.034010138362646</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.060424569994211</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.021863659843802</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0024262072984129</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1466,9 +1466,9 @@
     <Description>664.885 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.029931692406535</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.058156616985798</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.01832552626729</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0018246823456138</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1476,9 +1476,9 @@
     <Description>666.737 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024910751730204</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.058320451527834</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016191987320781</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0025000073947012</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1486,9 +1486,9 @@
     <Description>668.589 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.030007660388947</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.05778069794178</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.018754787743092</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0043678632937372</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1496,9 +1496,9 @@
     <Description>670.441 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.027708575129509</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.054141856729984</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.016754020005465</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0038317984435707</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1506,9 +1506,9 @@
     <Description>672.293 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.024094125255942</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.054371852427721</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.022791741415858</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0038969572633505</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1516,9 +1516,9 @@
     <Description>674.145 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.02895968221128</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.053660470992327</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.013163492083549</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0013480079360306</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1526,9 +1526,9 @@
     <Description>675.997 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.036066688597202</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.053343135863543</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.017365442588925</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0033695457968861</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1536,9 +1536,9 @@
     <Description>677.849 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.036208637058735</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.058178678154945</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.012980454601347</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0027233129367232</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1546,9 +1546,9 @@
     <Description>679.701 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.027409072965384</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.056524559855461</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.021927257999778</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0027318028733134</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1556,9 +1556,9 @@
     <Description>681.553 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.029517438262701</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.054000701755285</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.023192271590233</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.00069405097747222</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1566,9 +1566,9 @@
     <Description>683.405 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.0316430516541</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.058948792517185</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.02301312983036</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.00073768588481471</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1576,9 +1576,9 @@
     <Description>685.257 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.031026372686028</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.060792032629251</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.02216169424355</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1586,9 +1586,9 @@
     <Description>687.109 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.031937815248966</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.064388982951641</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.029542479664087</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0032610152848065</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1596,9 +1596,9 @@
     <Description>688.961 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.041027694940567</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.07147965580225</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.026257725432515</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.00084203633014113</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1606,9 +1606,9 @@
     <Description>690.813 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.05067453160882</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.081535004079342</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.028606589883566</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0040874574333429</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1616,9 +1616,9 @@
     <Description>692.665 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.064397059381008</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.09481630474329</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.0421057716012</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0073695844039321</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1626,9 +1626,9 @@
     <Description>694.517 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.068593949079514</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.10094628483057</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.042273014783859</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0098798563703895</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1636,9 +1636,9 @@
     <Description>696.369 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.072027318179607</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.11681701987982</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.043380089104176</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0097063332796097</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1646,9 +1646,9 @@
     <Description>698.221 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.077222168445587</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14036045968533</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.063403472304344</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.0097894128412008</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1656,9 +1656,9 @@
     <Description>700.073 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.092744886875153</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.14617517590523</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.072660841047764</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.014111208729446</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1666,9 +1666,9 @@
     <Description>701.925 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.10070190578699</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.17166912555695</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.075683988630772</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.014993811026216</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1676,9 +1676,9 @@
     <Description>703.777 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.11030057817698</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.18391479551792</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.086197964847088</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.017046838998795</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1686,9 +1686,9 @@
     <Description>705.629 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.12062267959118</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.20422412455082</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.094450615346432</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.021123852580786</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1696,9 +1696,9 @@
     <Description>707.481 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.13560502231121</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.220817014575</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.099653512239456</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.021748721599579</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1706,9 +1706,9 @@
     <Description>709.333 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.14394094049931</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.24537014961243</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.10756684094667</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.02657487988472</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1716,9 +1716,9 @@
     <Description>711.185 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.15578879415989</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.26220732927322</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.11472555994987</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.02776125445962</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1726,9 +1726,9 @@
     <Description>713.037 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.1650492399931</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.27717754244804</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.13311089575291</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.030419833958149</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1736,9 +1736,9 @@
     <Description>714.889 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.18373453617096</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.30740278959274</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.14540700614452</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.032982870936394</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1746,9 +1746,9 @@
     <Description>716.741 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.1895264685154</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.32241538167</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.15046674013138</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.032498758286238</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1756,9 +1756,9 @@
     <Description>718.593 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.20673441886902</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.33633270859718</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.15852923691273</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.042234215885401</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1766,9 +1766,9 @@
     <Description>720.445 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.22595711052418</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.35447961091995</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.17284569144249</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.038450077176094</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1776,9 +1776,9 @@
     <Description>722.297 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.25114929676056</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.39029514789581</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.17999897897243</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.050236955285072</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1786,9 +1786,9 @@
     <Description>724.149 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.25740548968315</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.41438472270966</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.17553432285786</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.05102165043354</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1796,9 +1796,9 @@
     <Description>726.001 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.27212738990784</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.45310592651367</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.19632983207703</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.064269423484802</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1806,9 +1806,9 @@
     <Description>727.853 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.27891075611115</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.48036113381386</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.20621806383133</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.067644760012627</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1816,9 +1816,9 @@
     <Description>729.705 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.30051109194756</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.48729938268661</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.24084900319576</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.06591559946537</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1826,9 +1826,9 @@
     <Description>731.557 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.31344643235207</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.50848478078842</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.23243115842342</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.072579614818096</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1836,9 +1836,9 @@
     <Description>733.409 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32527539134026</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.53487247228622</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.24996837973595</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.077415376901627</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1846,9 +1846,9 @@
     <Description>735.261 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33688047528267</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.55339372158051</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.26770260930061</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.078741997480392</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1856,9 +1856,9 @@
     <Description>737.113 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32519713044167</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.54311430454254</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.25950944423676</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.082783244550228</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1866,9 +1866,9 @@
     <Description>738.965 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35700529813766</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.59933829307556</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.2710275053978</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.093312367796898</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1876,9 +1876,9 @@
     <Description>740.817 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35937139391899</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.60080873966217</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.27986061573029</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.093485340476036</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1886,9 +1886,9 @@
     <Description>742.669 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35813957452774</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.60361385345459</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28877392411232</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.085754401981831</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1896,9 +1896,9 @@
     <Description>744.521 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35709315538406</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.61238026618958</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29455864429474</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.090945065021515</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1906,9 +1906,9 @@
     <Description>746.373 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38478198647499</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.64829927682877</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30830025672913</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10169736295938</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1916,9 +1916,9 @@
     <Description>748.225 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38063517212868</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.64337569475174</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30944675207138</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10540763288736</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1926,9 +1926,9 @@
     <Description>750.077 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39772000908852</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67057734727859</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30661487579346</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10154017806053</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1936,9 +1936,9 @@
     <Description>751.929 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40181922912598</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66989237070084</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30700460076332</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10173135995865</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1946,9 +1946,9 @@
     <Description>753.781 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40219649672508</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66095793247223</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28740334510803</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10591800510883</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1956,9 +1956,9 @@
     <Description>755.633 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38119751214981</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66271656751633</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30206978321075</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11390426754951</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1966,9 +1966,9 @@
     <Description>757.485 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40832206606865</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70651310682297</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31911811232567</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11200071126223</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1976,9 +1976,9 @@
     <Description>759.337 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.41103586554527</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.75217348337173</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30549949407578</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12570348381996</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1986,9 +1986,9 @@
     <Description>761.189 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38363912701607</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.72942477464676</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.310571372509</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10566978156567</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -1996,9 +1996,9 @@
     <Description>763.041 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35888716578484</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66214692592621</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32813614606857</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.097052611410618</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2006,9 +2006,9 @@
     <Description>764.893 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37370976805687</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.655497610569</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.334268450737</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11748025566339</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2016,9 +2016,9 @@
     <Description>766.745 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40515199303627</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67350405454636</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.33656015992165</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10573630779982</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2026,9 +2026,9 @@
     <Description>768.597 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.4055018723011</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.68274354934692</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31971690058708</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11410593241453</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2036,9 +2036,9 @@
     <Description>770.449 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.41172310709953</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69278389215469</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30561217665672</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11274865269661</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2046,9 +2046,9 @@
     <Description>772.301 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.42084011435509</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69096213579178</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.3038187623024</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10462171584368</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2056,9 +2056,9 @@
     <Description>774.153 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.429458796978</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71874135732651</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31560894846916</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11599545180798</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2066,9 +2066,9 @@
     <Description>776.005 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38229328393936</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70633614063263</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32736495137215</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11705660074949</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2076,9 +2076,9 @@
     <Description>777.857 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40815314650536</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69746816158295</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31776976585388</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11393209546804</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2086,9 +2086,9 @@
     <Description>779.709 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39832538366318</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.68115508556366</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32673552632332</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12475940585136</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2096,9 +2096,9 @@
     <Description>781.561 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36663144826889</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70033872127533</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31196990609169</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11831273138523</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2106,9 +2106,9 @@
     <Description>783.413 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39042922854424</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66416770219803</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30989655852318</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10468652099371</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2116,9 +2116,9 @@
     <Description>785.265 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.41828614473343</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70070451498032</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30861601233482</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12462748587132</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2126,9 +2126,9 @@
     <Description>787.117 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40066716074944</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71507173776627</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32693985104561</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12618109583855</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2136,9 +2136,9 @@
     <Description>788.969 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40026468038559</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70338785648346</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30029383301735</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11925320327282</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2146,9 +2146,9 @@
     <Description>790.821 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38023617863655</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70102560520172</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31988725066185</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13747704029083</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2156,9 +2156,9 @@
     <Description>792.673 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.41290935873985</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71157068014145</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31098017096519</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12035928666592</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2166,9 +2166,9 @@
     <Description>794.525 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36015579104424</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.6737989783287</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32060435414314</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12551353871822</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2176,9 +2176,9 @@
     <Description>796.377 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38833367824554</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70657932758331</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32063886523247</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12437130510807</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2186,9 +2186,9 @@
     <Description>798.229 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36878347396851</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.65143704414368</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29585486650467</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12003067135811</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2196,9 +2196,9 @@
     <Description>800.081 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37896156311035</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69973981380463</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29330679774284</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11811456084251</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2206,9 +2206,9 @@
     <Description>801.933 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39821815490723</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71169304847717</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30674862861633</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13679653406143</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2216,9 +2216,9 @@
     <Description>803.785 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.4153878390789</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70330280065536</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32388380169868</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13819912075996</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2226,9 +2226,9 @@
     <Description>805.637 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.3768070936203</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69889891147614</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29309105873108</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13717845082283</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2236,9 +2236,9 @@
     <Description>807.489 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39222154021263</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.76947343349457</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32219529151917</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13865952193737</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2246,9 +2246,9 @@
     <Description>809.341 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39302295446396</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.7117555141449</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31288361549377</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13209939002991</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2256,9 +2256,9 @@
     <Description>811.193 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35500437021255</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70516133308411</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.34134715795517</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12676559388638</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2266,9 +2266,9 @@
     <Description>813.045 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40740451216698</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.7108570933342</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.33145469427109</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.14304231107235</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2276,9 +2276,9 @@
     <Description>814.897 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.3869968354702</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70239305496216</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.27322801947594</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.14129874110222</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2286,9 +2286,9 @@
     <Description>816.749 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35747483372688</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67834830284119</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31114709377289</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.094439908862114</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2296,9 +2296,9 @@
     <Description>818.601 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.34979340434074</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.6623729467392</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29479193687439</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11020800471306</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2306,9 +2306,9 @@
     <Description>820.453 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39619779586792</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.72057658433914</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30638095736504</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13755862414837</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2316,9 +2316,9 @@
     <Description>822.305 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40961274504662</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71924781799316</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31357648968697</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10831130295992</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2326,9 +2326,9 @@
     <Description>824.157 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37832456827164</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69273459911346</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.3392408490181</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15005879104137</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2336,9 +2336,9 @@
     <Description>826.009 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36914783716202</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67752665281296</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.33333373069763</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13219156861305</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2346,9 +2346,9 @@
     <Description>827.861 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32817170023918</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67847484350204</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29679521918297</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.1402745693922</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2356,9 +2356,9 @@
     <Description>829.713 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.34937769174576</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.68668115139008</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28584763407707</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12880557775497</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2366,9 +2366,9 @@
     <Description>831.565 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39382117986679</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70210808515549</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29636111855507</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.14339120686054</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2376,9 +2376,9 @@
     <Description>833.417 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38980367779732</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69541186094284</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.26677426695824</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13567823171616</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2386,9 +2386,9 @@
     <Description>835.269 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36941075325012</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67361927032471</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28340893983841</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15620699524879</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2396,9 +2396,9 @@
     <Description>837.121 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35694605112076</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.68148618936539</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.2953434586525</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16955429315567</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2406,9 +2406,9 @@
     <Description>838.973 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39943096041679</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.68846249580383</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28355351090431</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16444930434227</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2416,9 +2416,9 @@
     <Description>840.825 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35220250487328</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.68521505594254</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29773822426796</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11188527196646</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2426,9 +2426,9 @@
     <Description>842.677 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.3303924202919</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.7091104388237</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30734178423882</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15946146845818</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2436,9 +2436,9 @@
     <Description>844.529 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35567480325699</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.6813959479332</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32540458440781</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12854744493961</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2446,9 +2446,9 @@
     <Description>846.381 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38828200101852</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69546854496002</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30904078483582</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15363511443138</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2456,9 +2456,9 @@
     <Description>848.233 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36024942994118</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69862961769104</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.33568695187569</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12594771385193</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2466,9 +2466,9 @@
     <Description>850.085 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32985389232635</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69144254922867</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.27421590685844</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.1433594673872</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2476,9 +2476,9 @@
     <Description>851.937 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38399028778076</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71617293357849</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31542059779167</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16370859742165</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2486,9 +2486,9 @@
     <Description>853.789 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38286820054054</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.72042018175125</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.35863602161407</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15382616221905</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2496,9 +2496,9 @@
     <Description>855.641 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37807878851891</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.78091233968735</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.34325575828552</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.1680366396904</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2506,9 +2506,9 @@
     <Description>857.493 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32698866724968</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.68914151191711</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30011287331581</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.14560529589653</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2516,9 +2516,9 @@
     <Description>859.345 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37372651696205</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.73882031440735</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.33004420995712</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12964129447937</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2526,9 +2526,9 @@
     <Description>861.197 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39416316151619</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71639901399612</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.33717572689056</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15646389126778</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2536,9 +2536,9 @@
     <Description>863.049 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40799739956856</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69663137197495</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32734674215317</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.1338174790144</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2546,9 +2546,9 @@
     <Description>864.901 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40836611390114</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.74546426534653</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29842141270638</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16236186027527</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2556,9 +2556,9 @@
     <Description>866.753 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.3530769944191</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70473808050156</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31153854727745</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.18636050820351</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2566,9 +2566,9 @@
     <Description>868.605 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35299205780029</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.72933655977249</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30335253477097</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.18071685731411</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2576,9 +2576,9 @@
     <Description>870.457 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35597530007362</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.73590105772018</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32859256863594</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12914769351482</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2586,9 +2586,9 @@
     <Description>872.309 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37430894374847</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.72653532028198</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.34028086066246</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.14734908938408</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2596,9 +2596,9 @@
     <Description>874.161 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36123678088188</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.72434794902802</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31677687168121</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16934897005558</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2606,9 +2606,9 @@
     <Description>876.013 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37001597881317</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.73349183797836</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31309041380882</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.18131926655769</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2616,9 +2616,9 @@
     <Description>877.865 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33659934997559</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66003632545471</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.27038305997849</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.1431510001421</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2626,9 +2626,9 @@
     <Description>879.717 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39179429411888</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71088516712189</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28494131565094</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13145062327385</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2636,9 +2636,9 @@
     <Description>881.569 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37461191415787</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.75559931993484</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.34877660870552</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.18779790401459</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2646,9 +2646,9 @@
     <Description>883.421 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.31602188944817</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.65927422046661</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.21068124473095</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13319148123264</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2656,9 +2656,9 @@
     <Description>885.273 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35305088758469</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.63173031806946</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28722783923149</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.17225678265095</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2666,9 +2666,9 @@
     <Description>887.125 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36346971988678</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.80369716882706</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32852071523666</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.20150738954544</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2676,9 +2676,9 @@
     <Description>888.977 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.3253827393055</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70012384653091</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28072237968445</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.17142309248447</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2686,9 +2686,9 @@
     <Description>890.829 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36767160892487</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67917329072952</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.36122125387192</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11527639627457</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2696,9 +2696,9 @@
     <Description>892.681 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.28299689292908</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.6683783531189</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.25667160749435</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13097457587719</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2706,9 +2706,9 @@
     <Description>894.533 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32014164328575</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71174418926239</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29727438092232</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.083797574043274</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2716,9 +2716,9 @@
     <Description>896.385 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35249531269073</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67492270469666</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32846149802208</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15021924674511</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2726,9 +2726,9 @@
     <Description>898.237 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.30017510056496</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.65632581710815</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.17510215938091</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.099583566188812</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2736,9 +2736,9 @@
     <Description>900.089 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32673454284668</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71287310123444</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.26138764619827</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13148604333401</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2746,9 +2746,9 @@
     <Description>901.941 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32350325584412</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69852447509766</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29495885968208</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.17045493423939</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2756,9 +2756,9 @@
     <Description>903.793 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38342958688736</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.7120618224144</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.32378497719765</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15744368731976</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2766,9 +2766,9 @@
     <Description>905.645 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.31233561038971</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.7023800611496</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28630763292313</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.17479911446571</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2776,9 +2776,9 @@
     <Description>907.497 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36372065544128</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.67247223854065</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.34506830573082</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11202878504992</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2786,9 +2786,9 @@
     <Description>909.349 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.3491238951683</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66612368822098</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.24937419593334</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.089087158441544</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2796,9 +2796,9 @@
     <Description>911.201 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.34439474344254</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69497519731522</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.24753370881081</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.12913830578327</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2806,9 +2806,9 @@
     <Description>913.053 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.28465369343758</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.65036427974701</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.2439888715744</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.10145422816277</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2816,9 +2816,9 @@
     <Description>914.905 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33310478925705</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71793419122696</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.17844898998737</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16927398741245</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2826,9 +2826,9 @@
     <Description>916.757 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.27852809429169</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.76231807470322</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.27852809429169</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16807867586613</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2836,9 +2836,9 @@
     <Description>918.609 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33410012722015</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71158301830292</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.21477866172791</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.15309439599514</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2846,9 +2846,9 @@
     <Description>920.461 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.30679646134377</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.6898957490921</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.19722630083561</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.13143499195576</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2856,9 +2856,9 @@
     <Description>922.313 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.34085217118263</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.75678873062134</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.27773141860962</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.16157938539982</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2866,9 +2866,9 @@
     <Description>924.165 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.31264212727547</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.73239648342133</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.16834576427937</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.14415709674358</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2876,9 +2876,9 @@
     <Description>926.017 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.27274635434151</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.76898211240768</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.26034879684448</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.14994323253632</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2886,9 +2886,9 @@
     <Description>927.869 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33082866668701</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.73029631376266</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.19298338890076</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.08238460123539</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2896,9 +2896,9 @@
     <Description>929.721 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.39110594987869</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.85084319114685</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.24888560175896</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.1072995737195</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2906,9 +2906,9 @@
     <Description>931.573 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.4920226931572</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71075421571732</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.38019934296608</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.044822044670582</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2916,9 +2916,9 @@
     <Description>933.425 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.41962081193924</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.71729946136475</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31471562385559</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.052732866257429</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2926,9 +2926,9 @@
     <Description>935.277 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.30572259426117</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.89290136098862</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.20381505787373</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2936,9 +2936,9 @@
     <Description>937.129 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.3113617002964</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.5877343416214</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.26345989108086</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2946,9 +2946,9 @@
     <Description>938.981 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.29855129122734</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.69142287969589</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29855129122734</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.046763673424721</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2956,9 +2956,9 @@
     <Description>940.833 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.37853321433067</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66328716278076</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.28389990329742</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.072708018124104</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2966,9 +2966,9 @@
     <Description>942.685 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.2292862534523</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.62109047174454</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.20844203233719</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2976,9 +2976,9 @@
     <Description>944.537 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38393738865852</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.54412531852722</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.19196869432926</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2986,9 +2986,9 @@
     <Description>946.389 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.19596834480762</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.73378753662109</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.083986438810825</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.057296957820654</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -2996,9 +2996,9 @@
     <Description>948.241 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32935586571693</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.80575585365295</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.17964865267277</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.061206799000502</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3006,9 +3006,9 @@
     <Description>950.093 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33337843418121</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.78985214233398</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.22225227952003</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3016,9 +3016,9 @@
     <Description>951.945 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33842378854752</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.61416447162628</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.2900775372982</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3026,9 +3026,9 @@
     <Description>953.797 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.31017804145813</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.72749656438828</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.19738602638245</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3036,9 +3036,9 @@
     <Description>955.649 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33212250471115</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70604342222214</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.22993096709251</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.025330144912004</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3046,9 +3046,9 @@
     <Description>957.501 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.26533451676369</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.61575466394424</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.048242643475533</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3056,9 +3056,9 @@
     <Description>959.353 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.40535980463028</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.6376776099205</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.11922347545624</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.024498555809259</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3066,9 +3066,9 @@
     <Description>961.205 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.24648959934711</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.74296110868454</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.12324479967356</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.064605318009853</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3076,9 +3076,9 @@
     <Description>963.057 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.29183757305145</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.58669716119766</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.067347131669521</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.023064691573381</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3086,9 +3086,9 @@
     <Description>964.909 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.15560878813267</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.86449587345123</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.15560878813267</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3096,9 +3096,9 @@
     <Description>966.761 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.19505439698696</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.76426512002945</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.11145965009928</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3106,9 +3106,9 @@
     <Description>968.613 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.25598984956741</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70667743682861</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.20944625139236</MDI>
+      <MDI key="STATISTICS_MINIMUM">0.11776846647263</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3116,7 +3116,7 @@
     <Description>970.465 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.36042159795761</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.70582777261734</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
       <MDI key="STATISTICS_MINIMUM">0.11263175308704</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
@@ -3126,9 +3126,9 @@
     <Description>972.317 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.28730794787407</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.65226423740387</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.23507015407085</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3136,9 +3136,9 @@
     <Description>974.169 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.27527403831482</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.66190749406815</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.05004982277751</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3146,9 +3146,9 @@
     <Description>976.021 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.27553564310074</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.64007127285004</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.20038954913616</MDI>
+      <MDI key="STATISTICS_MINIMUM">4.0167216774911e-11</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3156,9 +3156,9 @@
     <Description>977.873 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35001316666603</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.8671190738678</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.25455504655838</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3166,9 +3166,9 @@
     <Description>979.725 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.35062822699547</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.7918741106987</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.1912517696619</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3176,9 +3176,9 @@
     <Description>981.577 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.34323194622993</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.76429891586304</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.19613254070282</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3186,9 +3186,9 @@
     <Description>983.429 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.28734093904495</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.61138582229614</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.095780313014984</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3196,9 +3196,9 @@
     <Description>985.281 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.28123113512993</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.78635221719742</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.16873869299889</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3206,9 +3206,9 @@
     <Description>987.133 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.32656842470169</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.88983696699142</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.29391154646873</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3216,9 +3216,9 @@
     <Description>988.985 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.38270142674446</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.85948491096497</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.31891784071922</MDI>
+      <MDI key="STATISTICS_MINIMUM">8.5333781707497e-11</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3226,9 +3226,9 @@
     <Description>990.837 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.3887874186039</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.72329133749008</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.19439370930195</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3236,9 +3236,9 @@
     <Description>992.689 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.58926963806152</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.97632414102554</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.14731740951538</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3246,9 +3246,9 @@
     <Description>994.541 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.23982100188732</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.77609264850616</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.034260142594576</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3256,9 +3256,9 @@
     <Description>996.393 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.7645668387413</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.96385335922241</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.30582672357559</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3266,9 +3266,9 @@
     <Description>998.245 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.1291875243187</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.68085962533951</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.096890643239021</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>
@@ -3276,7 +3276,7 @@
     <Description>1000.1 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.33048248291016</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.62332934141159</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
       <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
@@ -3286,9 +3286,9 @@
     <Description>1001.95 nm</Description>
     <NoDataValue le_hex_equiv="000000000000F87F">nan</NoDataValue>
     <Metadata>
-      <MDI key="STATISTICS_MAXIMUM">0.42873054742813</MDI>
+      <MDI key="STATISTICS_MAXIMUM">0.8098236322403</MDI>
       <MDI key="STATISTICS_MEAN">-9999</MDI>
-      <MDI key="STATISTICS_MINIMUM">0.25009283423424</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
       <MDI key="STATISTICS_STDDEV">-9999</MDI>
     </Metadata>
   </PAMRasterBand>

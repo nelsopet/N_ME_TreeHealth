@@ -41,11 +41,16 @@ Canopy_labeled<-lapply(1:length(imgs), function(x){
 })
 
 Canopy_image_spectra<-Reduce(spectrolab::combine,Canopy_labeled)
-(as.data.frame(Canopy_image_spectra)) %>% group_by(Site, TreeID, Canopy_Type) %>% tally() %>% print(n=300)
-colnames(as.data.frame(Canopy_image_spectra))
+(as.data.frame(Canopy_image_spectra)) %>% dim #group_by(Site, TreeID, Canopy_Type) %>% tally() %>% print(n=300)
+as.data.frame(Canopy_image_spectra) %>% dplyr::select(-names_drop) %>%
+    dplyr::filter(Site == "HB3") %>% 
+    dplyr::filter(Canopy_Type == "val") %>% dim
 #Write full spectra
 names_drop<-colnames(as.data.frame(Canopy_image_spectra)[,5:17])
 
-write.csv(as.data.frame(Canopy_image_spectra) %>% dplyr:: select(-names_drop), "output/speclib/spruce_canopy_speclib.csv")
+write.csv(as.data.frame(Canopy_image_spectra) %>% dplyr::select(-names_drop), "output/speclib/spruce_canopy_speclib.csv")
 saveRDS(Canopy_image_spectra,"output/speclib/spruce_canopy_speclib.rds")
 
+#tst<-rast("output/canopy_spectra/HB3_R19_val.ENVI")
+#tst
+#plot(tst["483.389 nm"])

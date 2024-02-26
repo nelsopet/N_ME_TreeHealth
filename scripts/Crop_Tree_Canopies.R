@@ -36,6 +36,9 @@ canopies_path = "raw_data/geometry/hand_drawn/"
 canopies_sites<-list.files(canopies_path)[grepl("*.shp$",list.files(canopies_path))]
 canopies<-lapply(1:length(canopies_sites), function(x) {terra::vect(paste(canopies_path, canopies_sites[x], sep=""))})
 
+canopies[[1]]
+#, add=TRUE)
+
 #FULL CANOPIES#
 lapply(1:length(spruce_imgs),  
        function(x) {
@@ -43,10 +46,10 @@ lapply(1:length(spruce_imgs),
          tst_names<-names(tst_img)
          tst_quads<-canopies[[x]]
          #metadata(tst_mask)<-tst_quads$CLASS_NAME
-         bandnames(tst_mask)<-tst_names
             lapply(1:length(tst_quads), function (x) {
                 tst_crop <- terra::crop(tst_img, tst_quads[x])
                 tst_mask <- terra::mask(tst_crop, tst_quads[x])
+                bandnames(tst_mask)<-tst_names
                 writeRaster(tst_mask, paste("output/canopy_spectra/", tst_quads[x]$CLASS_NAME, ".ENVI",sep=""), overwrite = TRUE)
                 rm(tst_crop)
                 rm(tst_mask)})

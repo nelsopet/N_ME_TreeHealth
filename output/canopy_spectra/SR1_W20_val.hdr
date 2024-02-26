@@ -1,15 +1,15 @@
 ENVI
 description = {
 M:/MEIF_SCI_UMFK_RupertNason/N_ME_TreeHealth/output/canopy_spectra/SR1_W20_val.ENVI}
-samples = 1
-lines   = 1
+samples = 10
+lines   = 15
 bands   = 328
 header offset = 0
 file type = ENVI Standard
 data type = 4
 interleave = bsq
 byte order = 0
-map info = {Geographic Lat/Lon, 1, 1, -68.2140219293645, 47.1089198313188, 1.25163329300904e-06, 8.54524515148114e-07,WGS-84}
+map info = {Geographic Lat/Lon, 1, 1, -68.2140219293645, 47.1089223948923, 1.25163329443012e-06, 8.54524511832248e-07,WGS-84}
 coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
 band names = {
 396.345 nm,

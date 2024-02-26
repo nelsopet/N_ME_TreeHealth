@@ -1,15 +1,15 @@
 ENVI
 description = {
 M:/MEIF_SCI_UMFK_RupertNason/N_ME_TreeHealth/output/canopy_spectra/HB1_W16_cal.ENVI}
-samples = 1
-lines   = 1
+samples = 10
+lines   = 6
 bands   = 328
 header offset = 0
 file type = ENVI Standard
 data type = 4
 interleave = bsq
 byte order = 0
-map info = {Geographic Lat/Lon, 1, 1, -68.6251492905762, 46.845831959579, 1.71748625632517e-06, 1.17839875457548e-06,WGS-84}
+map info = {Geographic Lat/Lon, 1, 1, -68.6251647479526, 46.8458378515728, 1.71748625916734e-06, 1.17839875694396e-06,WGS-84}
 coordinate system string = {GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]]}
 band names = {
 396.345 nm,
