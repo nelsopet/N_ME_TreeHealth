@@ -54,3 +54,7 @@ saveRDS(Canopy_image_spectra,"output/speclib/spruce_canopy_speclib.rds")
 #tst<-rast("output/canopy_spectra/HB3_R19_val.ENVI")
 #tst
 #plot(tst["483.389 nm"])
+as.data.frame(Canopy_image_spectra) %>% 
+  dplyr::select(-names_drop) %>% 
+  group_by(Site, TreeID, Canopy_Type) %>% 
+  tally %>% print(n=300)
