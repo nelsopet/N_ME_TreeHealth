@@ -48,7 +48,16 @@ as.data.frame(Canopy_image_spectra) %>% dplyr::select(-names_drop) %>%
 #Write full spectra
 names_drop<-colnames(as.data.frame(Canopy_image_spectra)[,5:17])
 
+Canopy_image_spectra_5nm<-spectrolab::resample(Canopy_image_spectra, new_bands = seq(398, 999, 5), parallel = FALSE)
+Canopy_image_spectra_10nm<-spectrolab::resample(Canopy_image_spectra, new_bands = seq(398, 999, 10), parallel = FALSE)
+Canopy_image_spectra_15nm<-spectrolab::resample(Canopy_image_spectra, new_bands = seq(398, 999, 15), parallel = FALSE)
+
+
 write.csv(as.data.frame(Canopy_image_spectra) %>% dplyr::select(-names_drop), "output/speclib/spruce_canopy_speclib.csv")
+write.csv(as.data.frame(Canopy_image_spectra_5nm) %>% dplyr::select(-names_drop), "output/speclib/spruce_canopy_speclib_5nm.csv")
+write.csv(as.data.frame(Canopy_image_spectra_10nm) %>% dplyr::select(-names_drop), "output/speclib/spruce_canopy_speclib_10nm.csv")
+write.csv(as.data.frame(Canopy_image_spectra_15nm) %>% dplyr::select(-names_drop), "output/speclib/spruce_canopy_speclib_15nm.csv")
+
 saveRDS(Canopy_image_spectra,"output/speclib/spruce_canopy_speclib.rds")
 
 #tst<-rast("output/canopy_spectra/HB3_R19_val.ENVI")
