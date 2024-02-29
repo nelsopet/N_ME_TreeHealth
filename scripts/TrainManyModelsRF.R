@@ -14,8 +14,11 @@ vars<-colnames(spec_chem_canopy[,11:27])
 lapply(1:length(vars), function(x) {
 #x=7
 
-className=vars[x]
-spec_chem_canopy_df<-spec_chem_canopy[is.na(spec_chem_canopy[className])==F,]# %>% dim
+className=vars[1]
+
+spec_chem_canopy_df<-spec_chem_canopy[is.na(spec_chem_canopy[className])==F,]%>% 
+    group_by(Site, TreeID, GenusSpecies) %>% #tally %>% dplyr::select(n) %>% ungroup() %>% summarise(min_pix= min(n), max_pix = max(n), median_pix = median(n))
+    slice_sample(n =80, replace = F)
 
   #Create a test and train split
   inTrain <- caret::createDataPartition(
@@ -27,9 +30,14 @@ spec_chem_canopy_df<-spec_chem_canopy[is.na(spec_chem_canopy[className])==F,]# %
   
 training <- spec_chem_canopy_df[inTrain,]  %>% ungroup %>% dplyr::select(className, band_names)
 testing <- spec_chem_canopy_df[-inTrain,]  %>% ungroup %>% dplyr::select(className, band_names)
-
-    n=500
-     rf_mod <- ranger::ranger(as.formula(paste(className, "~.")),
+    #Variable Importance RF model
+    n=10000
+    rf_mod <- ranger::ranger(as.formula(paste(className, "~.")),
+    data = training,num.trees = n, importance = "impurity_corrected")
+    plot(sort(rf_mod$variable.importance))
+    #Prediction RF model
+    n=1000
+    rf_mod <- ranger::ranger(as.formula(paste(className, "~.")),
     data = training,num.trees = n)
     rf_mod_pred<-predict(rf_mod, testing)
     jpeg(paste("output/models/figs/", vars[x], "cal_v_val_density.jpg"), width = 700, height = 700)
