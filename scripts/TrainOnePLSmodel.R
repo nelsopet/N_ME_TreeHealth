@@ -2,7 +2,7 @@ source("Functions/lecospectR.R")
 
 #Read in data
 spec_chem_canopy<-read.csv("output/speclib/spruce_canopy_speclib_5nm_wChem.csv")
-
+colnames(spec_chem_canopy)
 #Set seed for stable cal/val split
 set.seed(1234)
 
@@ -12,7 +12,7 @@ band_names<-colnames(spec_chem_canopy[,29:ncol(spec_chem_canopy)])
 #List columns names available for modeling 
   str(spec_chem_canopy[,11:28])
 #Set the response variable for modeling
-className = "GenusSpecies"
+className = "Vigor_class"
 #Filter data to include rows with the response variable
 #spec_chem_canopy_n25<-spec_chem_canopy %>% 
 #    group_by(Site, TreeID, GenusSpecies, Canopy_Type) %>% 
@@ -24,8 +24,8 @@ className = "GenusSpecies"
         #mutate(Vigor_class = as.factor(Vigor_class)) %>%
 
     #slice_sample(n =15, replace = F)
-spec_chem_canopy_n25<-spec_chem_canopy[is.na(spec_chem_canopy[className])==F,]# %>% dplyr::filter(GenusSpecies == "White_Spruce") %>%  select(Site, TreeID) %>% unique() %>% dim#tally
-    mutate(Vigor_class = as.factor(Vigor_class), GenusSpecies = as.factor(GenusSpecies)) %>%
+spec_chem_canopy_n25<-spec_chem_canopy[is.na(spec_chem_canopy[className])==F,] %>% #dplyr::filter(GenusSpecies == "White_Spruce") %>%  select(Site, TreeID) %>% unique() %>% dim#tally
+    mutate(Vigor_class = as.factor(Vigor_class), GenusSpecies = as.factor(GenusSpecies))# %>%
     group_by(Site, TreeID, GenusSpecies) %>% #tally %>% dplyr::select(n) %>% ungroup() %>% summarise(min_pix= min(n), max_pix = max(n), median_pix = median(n))
     slice_sample(n =80, replace = F)
 
@@ -39,7 +39,7 @@ spec_chem_canopy_n25<-spec_chem_canopy[is.na(spec_chem_canopy[className])==F,]# 
     #na.rm = TRUE
   )
   
-training <- spec_chem_canopy_n25[inTrain,]  %>% tally() %>% print(n=200)
+training <- spec_chem_canopy_n25[inTrain,]  %>% #tally() %>% print(n=200)
     ungroup %>% dplyr::select(className, band_names)
 testing <- spec_chem_canopy_n25[-inTrain,]  %>% 
     ungroup %>% dplyr::select(className, band_names)
@@ -61,12 +61,18 @@ n=1000
     data = training,num.trees = n)
     rf_mod_pred<-predict(rf_mod, testing)
     rf_mod$confusion.matrix
-    caret::confusionMatrix(data = rf_mod_pred$predictions, reference = testing$GenusSpecies)
+    caret::confusionMatrix(data = rf_mod_pred$predictions, reference = testing$Vigor_class)
     windows()
-    plot(hexbin::hexbin(rf_mod_pred$predictions, testing$dbh_cm))
+    plot(hexbin::hexbin(rf_mod_pred$predictions, testing$Vigor_class))
     #abline(lm(rf_mod_pred$predictions~ testing$dbh_cm))
     #abline(0,1)
     R2(rf_mod_pred$predictions, testing$dbh_cm, formula = "corr")
+ 
+ #Determine outliers based on obs vs pred by variable and identify tree and site for QAQC
+
+
+
+
  
 #################Partial least squares regression 
   #tune model: 10-fold cross-validation repeated 3 times
