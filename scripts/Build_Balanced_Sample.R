@@ -11,7 +11,9 @@ band_names<-colnames(df_canopy[,5:ncol(df_canopy)])
 
 df_canopy %>% group_by(Site,TreeID) %>% tally %>% print(n=200)
 
-chem_canopy<-read.csv("raw_data/UMFK_MEIF_2023_Active_09062023.csv")
+#chem_canopy<-read.csv("raw_data/UMFK_MEIF_2023_Active_09062023.csv")
+chem_canopy<-read.csv("raw_data/UMFK_MEIF_SPRUCE_FINAL_20240730.csv")
+
 chem_canopy<-chem_canopy %>% rename(TreeID = Tree_ID, Site = Site_Code)
 chem_canopy$TreeID<-gsub("-","",chem_canopy$TreeID)
 chem_canopy$GenusSpecies<-ifelse(grepl("*R",chem_canopy$TreeID), "Red_Spruce", ifelse(grepl("*W",chem_canopy$TreeID), "White_Spruce", "Black_Spruce"))

@@ -12,7 +12,7 @@ band_names<-colnames(spec_chem_canopy[,29:ncol(spec_chem_canopy)])
 #List columns names available for modeling 
   str(spec_chem_canopy[,11:28])
 #Set the response variable for modeling
-className = "Vigor_class"
+className = "AVG_Fv_Fm"
 #Filter data to include rows with the response variable
 #spec_chem_canopy_n25<-spec_chem_canopy %>% 
 #    group_by(Site, TreeID, GenusSpecies, Canopy_Type) %>% 
@@ -24,13 +24,14 @@ className = "Vigor_class"
         #mutate(Vigor_class = as.factor(Vigor_class)) %>%
 
     #slice_sample(n =15, replace = F)
-spec_chem_canopy_n25<-spec_chem_canopy[is.na(spec_chem_canopy[className])==F,] %>% #dplyr::filter(GenusSpecies == "White_Spruce") %>%  select(Site, TreeID) %>% unique() %>% dim#tally
-    mutate(Vigor_class = as.factor(Vigor_class), GenusSpecies = as.factor(GenusSpecies))# %>%
+spec_chem_canopy_n25<-spec_chem_canopy[is.na(spec_chem_canopy[className])==F,] %>% 
+    subset(AVG_Fv_Fm != "not sampled") %>% #dplyr::filter(GenusSpecies == "White_Spruce") %>%  select(Site, TreeID) %>% unique() %>% dim#tally
+    mutate(AVG_Fv_Fm = as.numeric(AVG_Fv_Fm), Vigor_class = as.factor(Vigor_class), GenusSpecies = as.factor(GenusSpecies)) %>%
     group_by(Site, TreeID, GenusSpecies) %>% #tally %>% dplyr::select(n) %>% ungroup() %>% summarise(min_pix= min(n), max_pix = max(n), median_pix = median(n))
     slice_sample(n =80, replace = F)
 
-  #tally(spec_chem_canopy_n25 %>% group_by(Site, TreeID, GenusSpecies,Canopy_Type)) %>% print(n=100)
- 
+  spec_chem_canopy_n25 %>% group_by(Site, TreeID, GenusSpecies, eval(className)) %>% tally() %>% print(n=100)
+  unique(spec_chem_canopy_n25$AVG_Fv_Fm)
   #Create a test and train split
   inTrain <- caret::createDataPartition(
     y = spec_chem_canopy_n25[[className]],
@@ -53,7 +54,7 @@ testing <- spec_chem_canopy_n25[-inTrain,]  %>%
 
 #dim(cal)
 #dim(val) 
-
+head(training[,1])
 
 ################# Ranger models aka RF
 n=1000
@@ -63,7 +64,8 @@ n=1000
     rf_mod$confusion.matrix
     caret::confusionMatrix(data = rf_mod_pred$predictions, reference = testing$Vigor_class)
     windows()
-    plot(hexbin::hexbin(rf_mod_pred$predictions, testing$Vigor_class))
+    graphics::plot(rf_mod_pred$predictions, testing$AVG_Fv_Fm, type="p")
+    #plot(hexbin::hexbin(rf_mod_pred$predictions, testing$Vigor_class))
     #abline(lm(rf_mod_pred$predictions~ testing$dbh_cm))
     #abline(0,1)
     R2(rf_mod_pred$predictions, testing$dbh_cm, formula = "corr")
@@ -92,6 +94,7 @@ n=1000
     tuneLength = ncomp)
 
    plsFit_pred<- predict(plsFit, newdata = testing)
+   plot(hexbin::hexbin(plsFit_pred,testing$Vigor_class))
     #corrplot::corrplot(plsFit_pred)    
    #windows()
    caret::confusionMatrix(plsFit)
