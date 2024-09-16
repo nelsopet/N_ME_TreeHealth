@@ -94,7 +94,10 @@ n=1000
     tuneLength = ncomp)
 
    plsFit_pred<- predict(plsFit, newdata = testing)
-   plot(hexbin::hexbin(plsFit_pred,testing$Vigor_class))
+
+   plsFit_pred
+   windows()
+   plot(hexbin::hexbin(plsFit_pred,testing[[className]]))
     #corrplot::corrplot(plsFit_pred)    
    #windows()
    caret::confusionMatrix(plsFit)
