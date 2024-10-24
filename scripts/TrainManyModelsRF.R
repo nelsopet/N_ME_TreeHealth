@@ -45,8 +45,8 @@ vars_pretty<-c(
 #spec_chem_canopy[spec_chem_canopy == "not sampled"] <- NA
 #spec_chem_canopy<-apply(spec_chem_canopy,2,as.numeric)
 
-lapply(7:7, function(x) {
- x=20
+lapply(1:length(vars_pretty), function(x) {
+ x=19
  className=vars[x]
 
   
@@ -56,14 +56,39 @@ lapply(7:7, function(x) {
 dfa<-spec_chem_canopy
 #dim(df)
 dfa<-dfa %>% subset(dfa[className] != "not sampled")
-##Use block below for responses that are continuous
-#dfa[className]<-as.numeric(dfa[[className]])
-dim(dfa)
-##Use block below for responses that are factors like vigor class
-dfa[className]<-as.factor(dfa[[className]])
+dfa<-dfa[is.na(dfa[className])==F,]
+dfa<- dfa %>% mutate(UID = paste(Site,TreeID, sep="_"))
 
-dfa %>% group_by(GenusSpecies) %>% tally
-spec_chem_canopy_df<-dfa[is.na(dfa[className])==F,] %>% 
+##IF STATEMENT NEEDED
+##Use block below for responses that are continuous
+dfa[className]<-as.numeric(dfa[[className]])
+
+##IF STATEMENT NEEDED
+##Use block below for responses that are factors like vigor class
+  #dfa[className]<-as.factor(dfa[[className]])
+
+lapply(1:5, function(y), {
+    UID_list<-unique(dfa$UID)
+    rNum<-sample(seq(1, length(UID_list), by=1), length(UID_list), replace=FALSE)
+    UID_filt<-as.data.frame(cbind(UID_list,rNum))
+    dfa<-dfa %>% inner_join(UID_filt, by = c("UID"="UID_list"), keep=F)
+
+    training<-
+    dfa  %>% filter(rNum <= (0.8*length(UID_list))) %>% #dplyr::select(UID) %>% unique() %>% dim() #tally() %>% print(n=200)
+    ungroup %>% dplyr::select(className, band_names, VI_names)
+    #dim(training)
+    #unique( df  %>% filter(rNum<(0.9*length(UID_list))) %>% dplyr::select(UID))
+
+    testing<-
+    dfa  %>% filter(rNum>(0.8*length(UID_list))) %>% #dplyr::select(UID) %>% unique() %>% dim() #tally() %>% print(n=200)
+    ungroup %>% dplyr::select(className, band_names, VI_names)
+    #unique( df  %>% filter(rNum>(0.9*length(UID_list))) %>% dplyr::select(UID))
+
+        train_UIDs<-df  %>% filter(rNum <= (0.8*length(UID_list))) %>% ungroup() %>% dplyr::select(UID) %>% unique
+        test_UIDs<-df %>% filter(rNum>(0.8*length(UID_list))) %>% ungroup() %>% dplyr::select(UID)  %>% unique
+
+
+spec_chem_canopy_df<-dfa %>% 
 #    subset(AVG_Fv_Fm != "not sampled") %>%
     mutate(#AVG_Fv_Fm = as.numeric(AVG_Fv_Fm), 
       Vigor_class = as.factor(Vigor_class), 
@@ -73,49 +98,77 @@ spec_chem_canopy_df<-dfa[is.na(dfa[className])==F,] %>%
         #subset(Branch_1_Amax_normalized_umol_per_m2_sec <87) %>%
         #subset(Branch_1_gsw_normalized_umol_per_m2_sec<1.99) %>%
     #For continuous variables, balance sample by site/TreeID/species
-    #group_by(Site, TreeID, GenusSpecies) %>%#, dfa[[className]]) %>% #tally %>% dplyr::select(n) %>% ungroup() %>% summarise(min_pix= min(n), max_pix = max(n), median_pix = median(n))
-    #    slice_sample(n =80, replace = F)
+    group_by(Site, TreeID, GenusSpecies) %>%#, dfa[[className]]) %>% #tally %>% dplyr::select(n) %>% ungroup() %>% summarise(min_pix= min(n), max_pix = max(n), median_pix = median(n))
+        slice_sample(n =80, replace = F)
 
     #For categorical variables, balance sample by level
-    group_by(GenusSpecies) %>%
-    slice_sample(n =3000, replace = F)
-
+      #group_by(GenusSpecies) %>%
+      #slice_sample(n =3000, replace = F)
+    #check data size
     dim(spec_chem_canopy_df)
-sum(is.na(spec_chem_canopy_df[className]))
-  
- dim(spec_chem_canopy_df) 
- spec_chem_canopy_df %>% group_by(GenusSpecies) %>% tally
+    #check if there are NAs
+    sum(is.na(spec_chem_canopy_df[className]))
+    #check number of samples by species
+    spec_chem_canopy_df %>% group_by(GenusSpecies) %>% tally
 
   #Create a test and train split
   inTrain <- caret::createDataPartition(
-    y = spec_chem_canopy_df[[className]],
+    y = spec_chem_canopy_df[["UID"]],
     p = 0.7,
     list = FALSE#,
     #na.rm = TRUE
   )
 training <- spec_chem_canopy_df[inTrain,]  %>% ungroup %>% dplyr::select(className, band_names)
+  #Check dimensions
+  dim(training)
 testing <- spec_chem_canopy_df[-inTrain,]  %>% ungroup %>% dplyr::select(className, band_names)
+  #Check dimensions
+  dim(testing)
     #Variable Importance RF model
-    #n=10000
-    #rf_mod <- ranger::ranger(as.formula(paste(className, "~.")),
-    #data = training,num.trees = n, importance = "impurity_corrected")
-    #plot(sort(rf_mod$variable.importance))
-    #Prediction RF model
-    n=1000
-    #print(paste("building ranger model for ",className,sep="")
-    rf_mod <- ranger::ranger(as.formula(paste(className, "~.")),
-    data = training,num.trees = n)
-    rf_mod_pred <-predict(rf_mod, testing)
-    
-    training %>% group_by(Vigor_class) %>% tally
-    ##PLS
-    ctrl <- caret::trainControl(
-    method = "repeatedcv",
-    number = 10,
-    #sampling = "down",
-    repeats = 3)
+      #n=10000
+      #rf_mod <- ranger::ranger(as.formula(paste(className, "~.")),
+      #data = training,num.trees = n, importance = "impurity_corrected")
+      #plot(sort(rf_mod$variable.importance))
+     testing_labels <- #df[-inTrain,] %>% 
+        dfa  %>% filter(rNum>(0.8*length(UID_list))) %>%
+        ungroup %>% dplyr::select(className, Site, GenusSpecies, TreeID, UID)  #%>% rename(Field=Field.x)
 
-    ncomp=30
+    #Prediction RF model
+      n=1000
+    rf_mod <- ranger::ranger(as.formula(paste(className, "~.")),data = training, num.trees = n)
+    #Save model to disk
+    #saveRDS(rf_mod, paste("WymansNutrientTrial2023/output/mle/mods/ds_only/", className,"_", y, sep=""))       
+    #Predict validation data and calculate fit
+    rf_mod_pred<-predict(rf_mod, testing, na.rm=TRUE)
+    fit<-round(R2(rf_mod_pred$predictions, testing[className], formula = "corr"),2)
+    #Write predictions, observed values to disk
+    #pred_out<-as.data.frame(cbind(rf_mod_pred$predictions, testing[className]))
+    testing_labels$Predictions<-rf_mod_pred$predictions
+    testing_labels<-testing_labels[-1]
+    testing_labels$Observed<-testing[[className]]
+    #colnames(pred_out)<-c("prediction, observed")
+    testing_labels$var<-className
+    testing_labels$mod_num<-paste(y)
+    write.csv(testing_labels,paste("output/models/predictions/",className,"_median_10nmBands_",y,".csv",sep=""))    
+
+
+
+      #Old way
+      #print(paste("building ranger model for ",className,sep="")
+      #rf_mod <- ranger::ranger(as.formula(paste(className, "~.")),
+      #data = training,num.trees = n)
+      #rf_mod_pred <-predict(rf_mod, testing)
+    
+      #training %>% group_by(Vigor_class) %>% tally
+    
+    ##PLS
+    #ctrl <- caret::trainControl(
+    #method = "repeatedcv",
+    #number = 10,
+    #sampling = "down",
+    #repeats = 3)
+
+    #ncomp=30
   #Fit model. Note max iterations set to 100000 to allow model convergence
   #plsFit <- caret::train(
   #  as.formula(paste(className, "~.")),
@@ -133,7 +186,7 @@ testing <- spec_chem_canopy_df[-inTrain,]  %>% ungroup %>% dplyr::select(classNa
     #rpd = round(2 * abs(testing[className] - rf_mod_pred$predictions) / (rf_mod_pred$predictions + testing[className]),2) 
     
     ##Use R2 for continuous variables
-    #R2 = round(R2(rf_mod_pred$predictions, testing[[className]], formula = "corr"),2)
+    R2stat = round(R2(rf_mod_pred$predictions, testing[[className]], formula = "corr"),2)
     ##Use block below for responses that are factors like vigor class
     obs = testing[[className]]
     pred = rf_mod_pred$predictions
@@ -146,28 +199,29 @@ testing <- spec_chem_canopy_df[-inTrain,]  %>% ungroup %>% dplyr::select(classNa
 
     ##Use plotting block below for continuous variables
     #jpeg(paste("output/models/figs/", vars[x], "cal_v_val_density.jpg"))#, width = 700, height = 600)
-    #hex<-hexbin::hexbin(rf_mod_pred$predictions, testing[[className]], xbins = 30)
-    #plot(hex, 
-    #    ##Use block for continuous variables
-    #    #main = paste(vars_pretty[x], "  R2  =  ",R2, sep=""),
-    #    ##Use block for factors
-    #    main = paste(vars_pretty[x], "  Accuracy  =  ",acc, sep="")
-    #    xlab = paste("Calibration  ", vars_pretty[x], sep=""), 
-    #    ylab = paste("Validation  ", vars_pretty[x], sep=""),
-    #    colramp = CR,
-    #    colorcut = 10)
-    #
+    hex<-hexbin::hexbin(rf_mod_pred$predictions, testing[[className]], xbins = 30)
+    plot(hex)#, 
+        ##Use block for continuous variables
+        main = paste(vars_pretty[x], "  R2  =  ",R2stat, sep=""),
+        ##Use block for factors
+        main = paste(vars_pretty[x], "  Accuracy  =  ",acc, sep=""),
+        xlab = paste("Calibration  ", vars_pretty[x], sep=""), 
+        ylab = paste("Validation  ", vars_pretty[x], sep=""),
+        colramp = CR,
+        colorcut = 10)
+    
     #par(cex.axis=3, cex.main=3, cex.sub=3)
 
     ##Use block below for viz of factors
-    jpeg(paste("output/models/figs/", vars[x], "cal_v_val_density.jpg", sep=""), width = 700, height = 600)
-        autoplot(cm, type = "heatmap") + 
-          scale_fill_gradient(low="#D6EAF8",high = "#2E86C1")+
-            labs(x = paste("Calibration  ", vars_pretty[x], sep=""), y = paste("Validation  ", vars_pretty[x], sep=""), title = paste(vars_pretty[x], "  Accuracy =  ",acc, sep="")) +
-              theme(plot.title = element_text(hjust = 0.5, size =16, face="bold"),
-                axis.text=element_text(size=14, face="bold"),
-                axis.title=element_text(size=14,face="bold"))
+    #jpeg(paste("output/models/figs/", vars[x], "cal_v_val_density.jpg", sep=""), width = 700, height = 600)
+    #    autoplot(cm, type = "heatmap") + 
+    #      scale_fill_gradient(low="#D6EAF8",high = "#2E86C1")+
+    #        labs(x = paste("Calibration  ", vars_pretty[x], sep=""), y = paste("Validation  ", vars_pretty[x], sep=""), title = paste(vars_pretty[x], "  Accuracy =  ",acc, sep="")) +
+    #          theme(plot.title = element_text(hjust = 0.5, size =16, face="bold"),
+    #            axis.text=element_text(size=14, face="bold"),
+    #            axis.title=element_text(size=14,face="bold"))
     #
+    })
     dev.off()
     print(vars[x])
     })
