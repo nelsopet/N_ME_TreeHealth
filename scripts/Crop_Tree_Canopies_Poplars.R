@@ -36,6 +36,11 @@ canopies_path = "raw_data/geometry/hand_drawn/Poplars/"
 canopies_sites<-list.files(canopies_path)[grepl("*.shp$",list.files(canopies_path))]
 canopies<-lapply(1:length(canopies_sites), function(x) {terra::vect(paste(canopies_path, canopies_sites[x], sep=""))})
 
+X11()
+plot(canopies[[1]])
+terra::rast(imgs[1]) %>% plot
+
+
 lapply(1:length(canopies), function(x) {ROI_name<-canopies[[x]]$CLASS_NAME;  return(ROI_name)})
 #, add=TRUE)
 

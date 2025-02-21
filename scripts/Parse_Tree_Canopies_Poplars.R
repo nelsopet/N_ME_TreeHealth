@@ -42,6 +42,11 @@ Canopy_labeled<-lapply(1:length(imgs), function(x){
 })
 
 Canopy_image_spectra<-Reduce(spectrolab::combine,Canopy_labeled)
+
+Canopy_image_spectra_df<-as.data.frame(Canopy_image_spectra)
+
+dim(Canopy_image_spectra_df)
+Canopy_image_spectra_df %>% group_by(TreeID,Site) %>% tally %>% print(n=200)
 (as.data.frame(Canopy_image_spectra)) %>% dim #group_by(Site, TreeID, Canopy_Type) %>% tally() %>% print(n=300)
 as.data.frame(Canopy_image_spectra) %>% dplyr::select(-names_drop) %>%
     dplyr::filter(Site == "HB3") %>% 
