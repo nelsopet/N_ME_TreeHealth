@@ -9,16 +9,16 @@ library(rgeos)
 library(sf)
 
 #Define file paths
-image_path_01 = "E:/Cross_Lake_1/100411_Cross_Lake_1_2021_06_16_17_42_33/raw_4431_rd_rf_or"
-image_path_02 = "E:/Cross_Lake_1/100411_Cross_Lake_1_2021_06_16_17_42_33/raw_7106_rd_rf_or"
-image_path_03 = "E:/Cross_Lake_2/100429_Cross_Lake_2_2021_06_16_19_41_13/raw_10176_rd_rf_or"
-image_path_04 = "E:/Cross_Lake_2/100429_Cross_Lake_2_2021_06_16_19_41_13/raw_8176_rd_rf_or"
-image_path_05 = "E:/Hewes_Brook_1/Imaging_Spectrometer/100445_hewes_brook_1_2021_07_24_15_29_35/raw_7988_rd_rf_or"
-image_path_06 = "E:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_0_rd_rf_or"
-image_path_07 = "E:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_1336_rd_rf_or"
-image_path_08 = "E:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_4956_rd_rf_or"
-image_path_09 = "E:/Hewes_Brook_3/Imaging_Spectrometer/100471_hewes_brook_3_2022_flight2_2022_06_28_18_20_28/raw_5624_rd_rf_or"
-image_path_10 = "E:/Red_River_1/Imaging_Spectrometer/100449_Red_River_1_v2_2021_07_24_17_46_16/raw_6569_rd_rf_or"
+image_path_01 = "G:/Cross_Lake_1/100411_Cross_Lake_1_2021_06_16_17_42_33/raw_4431_rd_rf_or"
+image_path_02 = "G:/Cross_Lake_1/100411_Cross_Lake_1_2021_06_16_17_42_33/raw_7106_rd_rf_or"
+image_path_03 = "G:/Cross_Lake_2/100429_Cross_Lake_2_2021_06_16_19_41_13/raw_10176_rd_rf_or"
+image_path_04 = "G:/Cross_Lake_2/100429_Cross_Lake_2_2021_06_16_19_41_13/raw_8176_rd_rf_or"
+image_path_05 = "G:/Hewes_Brook_1/Imaging_Spectrometer/100445_hewes_brook_1_2021_07_24_15_29_35/raw_7988_rd_rf_or"
+image_path_06 = "G:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_0_rd_rf_or"
+image_path_07 = "G:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_1336_rd_rf_or"
+image_path_08 = "G:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_4956_rd_rf_or"
+image_path_09 = "G:/Hewes_Brook_3/Imaging_Spectrometer/100471_hewes_brook_3_2022_flight2_2022_06_28_18_20_28/raw_5624_rd_rf_or"
+image_path_10 = "G:/Red_River_1/Imaging_Spectrometer/100449_Red_River_1_v2_2021_07_24_17_46_16/raw_6569_rd_rf_or"
 
 imgs<-c(
 image_path_01,
@@ -41,7 +41,10 @@ plot(canopies[[1]])
 terra::rast(imgs[1]) %>% plot
 
 
-lapply(1:length(canopies), function(x) {ROI_name<-canopies[[x]]$CLASS_NAME;  return(ROI_name)})
+canopies_all<-lapply(1:length(canopies), function(x) {ROI_name<-canopies[[x]]$CLASS_NAME;  return(ROI_name)}) %>% 
+       unlist 
+c(subset(canopies_all, grepl("_cal", canopies_all)==TRUE),subset(canopies_all, grepl("_val", canopies_all)==TRUE))
+
 #, add=TRUE)
 
 #FULL CANOPIES#
