@@ -6,9 +6,12 @@ path <- ("output/canopy_spectra/Poplars/")
 #list all .grd files of FULL canopies
 allfiles <- list.files(path) 
 imgs_all <- subset(allfiles, grepl(".ENVI$", allfiles)==TRUE)# & grepl("full", allfiles)==TRUE)
-imgs_cal<-subset(imgs_all, grepl("_cal", imgs_all)==TRUE)
-imgs_val<-subset(imgs_all, grepl("_val", imgs_all)==TRUE)
-imgs<-c(imgs_cal,imgs_val)
+imgs<-subset(imgs_all, grepl("_cal", imgs_all)==FALSE & grepl("_val", imgs_all)==FALSE)
+
+#imgs_cal<-subset(imgs_all, grepl("_cal", imgs_all)==TRUE)
+#imgs_val<-subset(imgs_all, grepl("_val", imgs_all)==TRUE)
+#imgs<-c(imgs_cal,imgs_val)
+
 ####PARSE LOOP####
 Canopy_labeled<-lapply(1:length(imgs), function(x){ 
   #extract individual canopy names

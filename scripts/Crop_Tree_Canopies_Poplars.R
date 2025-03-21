@@ -9,16 +9,16 @@ library(rgeos)
 library(sf)
 
 #Define file paths
-image_path_01 = "G:/Cross_Lake_1/100411_Cross_Lake_1_2021_06_16_17_42_33/raw_4431_rd_rf_or"
-image_path_02 = "G:/Cross_Lake_1/100411_Cross_Lake_1_2021_06_16_17_42_33/raw_7106_rd_rf_or"
-image_path_03 = "G:/Cross_Lake_2/100429_Cross_Lake_2_2021_06_16_19_41_13/raw_10176_rd_rf_or"
-image_path_04 = "G:/Cross_Lake_2/100429_Cross_Lake_2_2021_06_16_19_41_13/raw_8176_rd_rf_or"
-image_path_05 = "G:/Hewes_Brook_1/Imaging_Spectrometer/100445_hewes_brook_1_2021_07_24_15_29_35/raw_7988_rd_rf_or"
-image_path_06 = "G:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_0_rd_rf_or"
-image_path_07 = "G:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_1336_rd_rf_or"
-image_path_08 = "G:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_4956_rd_rf_or"
-image_path_09 = "G:/Hewes_Brook_3/Imaging_Spectrometer/100471_hewes_brook_3_2022_flight2_2022_06_28_18_20_28/raw_5624_rd_rf_or"
-image_path_10 = "G:/Red_River_1/Imaging_Spectrometer/100449_Red_River_1_v2_2021_07_24_17_46_16/raw_6569_rd_rf_or"
+image_path_01 = "F:/Cross_Lake_1/100411_Cross_Lake_1_2021_06_16_17_42_33/raw_4431_rd_rf_or"
+image_path_02 = "F:/Cross_Lake_1/100411_Cross_Lake_1_2021_06_16_17_42_33/raw_7106_rd_rf_or"
+image_path_03 = "F:/Cross_Lake_2/100429_Cross_Lake_2_2021_06_16_19_41_13/raw_10176_rd_rf_or"
+image_path_04 = "F:/Cross_Lake_2/100429_Cross_Lake_2_2021_06_16_19_41_13/raw_8176_rd_rf_or"
+image_path_05 = "F:/Hewes_Brook_1/Imaging_Spectrometer/100445_hewes_brook_1_2021_07_24_15_29_35/raw_7988_rd_rf_or"
+image_path_06 = "F:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_0_rd_rf_or"
+image_path_07 = "F:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_1336_rd_rf_or"
+image_path_08 = "F:/Hewes_Brook_2/100450_Hewes_Broiok_2_2021_07_24_19_14_29/raw_4956_rd_rf_or"
+image_path_09 = "F:/Hewes_Brook_3/Imaging_Spectrometer/100471_hewes_brook_3_2022_flight2_2022_06_28_18_20_28/raw_5624_rd_rf_or"
+image_path_10 = "F:/Red_River_1/Imaging_Spectrometer/100449_Red_River_1_v2_2021_07_24_17_46_16/raw_6569_rd_rf_or"
 
 imgs<-c(
 image_path_01,
@@ -66,5 +66,16 @@ lapply(1:length(imgs),
        gc()
        })
 
-tst_canopy_files<-list.files("output/canopy_spectra/Poplars/")
-tst_canopy<-terra::rast(paste("output/canopy_spectra/Poplars/", tst_canopy_files[1], sep=""))
+path = "output/canopy_spectra/Poplars/"
+#list all .grd files of FULL canopies
+allfiles <- list.files(path) 
+imgs_all <- subset(allfiles, grepl(".ENVI$", allfiles)==TRUE)# & grepl("full", allfiles)==TRUE)
+imgs_cal<-subset(imgs_all, grepl("_cal", imgs_all)==TRUE)
+imgs_val<-subset(imgs_all, grepl("_val", imgs_all)==TRUE)
+imgs<-c(imgs_cal,imgs_val)
+tst_canopy<-terra::rast(paste("output/canopy_spectra/Poplars/", imgs[1], sep=""))
+plot(tst_canopy)
+
+#Check if shapefile is the source of the single pixel ROI
+plot(canopies[[1]][18])#$CLASS_NAME#["CL1_Asp20_cal"]
+
