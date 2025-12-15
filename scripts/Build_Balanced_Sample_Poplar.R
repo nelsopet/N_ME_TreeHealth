@@ -8,7 +8,7 @@ colnames(df_canopy)
 #Remove redundant columns
 df_canopy<-df_canopy[,-1]
 band_names<-colnames(df_canopy[,5:ncol(df_canopy)])
-
+ 
 df_canopy %>% group_by(Site,TreeID) %>% tally %>% print(n=200)
 
 #chem_canopy<-read.csv("raw_data/UMFK_MEIF_2023_Active_09062023.csv")
