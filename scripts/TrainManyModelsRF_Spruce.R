@@ -236,16 +236,26 @@ lapply(1:models_per_var, function(ty) {
 
 #Merge predictions across models
 #TODO
-all_out<-list.files("output/models/predictions/picea/tree_sample_unit/red_spruce/")
+all_out<-list.files("output/models/predictions/picea/tree_sample_unit/")
     #Filter out only dates desired
     #all_out<-all_out[grepl("_median_5nmBands",all_out)]
     all_out<-all_out[grepl(".csv",all_out)]
 all_preds<-lapply(1:length(all_out), function(x) 
-    {read.csv(paste("output/models/predictions/picea/tree_sample_unit/red_spruce/",all_out[x],sep=""))
+    {read.csv(paste("output/models/predictions/picea/tree_sample_unit/",all_out[x],sep=""))
     })
 all_preds<-Reduce(rbind, all_preds) 
-
+dim(all_preds)
 unique(all_preds$GenusSpecies)
+
+all_preds$Obs_vs_Pred<-abs(all_preds$Observed/all_preds$Predictions)
+
+all_preds %>% group_by(var) %>% 
+  #subset(var == "Branch_1_gsw_normalized_umol_per_m2_sec") %>%
+  subset(Obs_vs_Pred>5) %>% 
+  dplyr::select(var, UID) %>% unique %>% print(n=25)
+
+#all_preds<-all_preds %>% subset(Obs_vs_Pred<5)
+
 all_preds_mean<-all_preds %>% #dim
 #Filter outliers
 #dplyr::anti_join(outliers, by=c("UID"="UID","JDate"="JDate")) %>% #dim
@@ -284,13 +294,21 @@ all_preds %>% dplyr::anti_join(outliers, by=c("UID"="UID","JDate"="JDate"))%>% d
 
 ##Make obs vs pred across all models
 #Remove outliers
-all_preds_df = all_preds #%>% 
+all_preds_df = all_preds #%>% subset(Obs_vs_Pred<5) 
+dim(all_preds_df)
 #dplyr::anti_join(outliers, by=c("UID"="UID","JDate"="JDate")) #dim
-head(all_preds_df)
+head(all_preds_mean)
+unique(all_preds_mean$GenusSpecies)
+
+all_preds_size_id<-all_preds_df %>% ungroup() %>% 
+  dplyr::select(UID,var,Observed) %>% subset(var=="dbh_cm") %>% 
+  unique %>% as.data.frame() %>% dplyr::select(-var) %>% rename(dbh=Observed)
+
+all_preds_df<-all_preds_df %>% inner_join(all_preds_size_id, by="UID")
 unique(all_preds_df$GenusSpecies)
 
 lapply(1:length(Resp_names), function(x) {
-#x=2
+#x=3
 className = Resp_names[x]
 resp_fit = all_preds_mean[all_preds_mean$var == className,]
 df_var<-all_preds_df[all_preds_df$var == className,]
@@ -299,7 +317,7 @@ df_var_site_id<-df_var %>% ungroup() %>% dplyr::select(Site) %>% unique %>% as.d
 df_var_site_id$Site_Num<-c(seq(1:length(df_var_site_id$Site)))
 
 df_var_sp_id<-df_var %>% ungroup() %>% dplyr::select(GenusSpecies) %>% unique %>% as.data.frame()
-df_var_sp_id$Sp_Num<-c(seq(1:length(df_var_sp_id$GenusSpecies)))
+df_var_sp_id$Sp_Num<-c(seq(1:length(df_var_site_id$GenusSpecies)))
 
 df_var<-df_var %>% inner_join(df_var_site_id, by="Site", keep=FALSE) %>% inner_join(df_var_sp_id, by="GenusSpecies", keep=FALSE)
 
@@ -307,10 +325,10 @@ print(className)
 print(paste("Model R2 = ", all_preds_mean[x,]$R2, sep=""))
 print(paste("Model MAE = ", all_preds_mean[x,]$MAE, sep=""))
 
-jpeg(paste("output/models/figs/picea/red_spruce/",className,"_median_5nmBands_5nmVIs_80cal_20val",".jpg", sep=""), height = 500, width=550)
+jpeg(paste("output/models/figs/picea/",className,"_median_5nmBands_5nmVIs_80cal_20val",".jpg", sep=""), height = 500, width=550)
 
 #Uncomment when using JDate as a predictor
-plot(df_var$Predictions,df_var$Observed, col = df_var$Site_Num, pch=df_var$Sp_Num,
+plot(df_var$Predictions,df_var$Observed, col = df_var$Site_Num, pch=df_var$Sp_Num, cex = log(df_var$dbh,base=4),
 #plot(df_var$Predictions,df_var$Observed, pch = df_var$Field_Num,
 main = paste("Observed vs Predicted ", className,",\n  R-squared = ",resp_fit$R2, ", nRMSE = ", resp_fit$nRMSE_IQR, sep=""), 
     xlab = paste("predicted ",className,sep=""), 
