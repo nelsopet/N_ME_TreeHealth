@@ -4,7 +4,7 @@ import argparse
 import csv
 from pathlib import Path
 
-from PIL import Image, ImageDraw, ImageFont
+from PIL import Image, ImageDraw, ImageEnhance, ImageFont, ImageOps
 
 
 DEFAULT_RGB_DIR = Path("data/rgb_quicklooks_nme_flights")
@@ -32,6 +32,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--fade-frames", type=int, default=DEFAULT_FADE_FRAMES)
     p.add_argument("--max-width", type=int, default=DEFAULT_MAX_WIDTH)
     p.add_argument("--max-colors", type=int, default=DEFAULT_MAX_COLORS)
+    p.add_argument("--autocontrast-cutoff", type=float, default=1.5)
+    p.add_argument("--contrast-factor", type=float, default=1.2)
     return p.parse_args()
 
 
@@ -63,6 +65,14 @@ def _with_label(img: Image.Image, label: str) -> Image.Image:
     y = pad
     draw.rectangle((x - 4, y - 3, x + tw + 4, y + th + 3), fill=(0, 0, 0))
     draw.text((x, y), label, fill=(255, 255, 255), font=font)
+    return out
+
+
+def _enhance_contrast(img: Image.Image, cutoff: float, contrast_factor: float) -> Image.Image:
+    # Per-frame autocontrast to reduce washed-out appearance.
+    out = ImageOps.autocontrast(img, cutoff=cutoff)
+    if contrast_factor != 1.0:
+        out = ImageEnhance.Contrast(out).enhance(contrast_factor)
     return out
 
 
@@ -119,7 +129,17 @@ def main() -> None:
             labels.append(label)
     canvas_width = max(im.width for im in resized)
     canvas_height = max(im.height for im in resized)
-    stills = [_with_label(_pad_to_canvas(im, canvas_width, canvas_height), lab) for im, lab in zip(resized, labels)]
+    stills = [
+        _with_label(
+            _enhance_contrast(
+                _pad_to_canvas(im, canvas_width, canvas_height),
+                cutoff=args.autocontrast_cutoff,
+                contrast_factor=args.contrast_factor,
+            ),
+            lab,
+        )
+        for im, lab in zip(resized, labels)
+    ]
 
     step_ms = int(round(args.seconds_per_step * 1000.0))
     fade_ms_total = int(round(args.fade_seconds * 1000.0))
