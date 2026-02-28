@@ -4,7 +4,7 @@ import argparse
 import csv
 from pathlib import Path
 
-from PIL import Image
+from PIL import Image, ImageDraw, ImageFont
 
 
 DEFAULT_RGB_DIR = Path("data/rgb_quicklooks_nme_flights")
@@ -51,6 +51,21 @@ def _pad_to_canvas(img: Image.Image, width: int, height: int) -> Image.Image:
     return canvas
 
 
+def _with_label(img: Image.Image, label: str) -> Image.Image:
+    out = img.copy()
+    draw = ImageDraw.Draw(out)
+    font = ImageFont.load_default()
+    pad = 8
+    bbox = draw.textbbox((0, 0), label, font=font)
+    tw = bbox[2] - bbox[0]
+    th = bbox[3] - bbox[1]
+    x = pad
+    y = pad
+    draw.rectangle((x - 4, y - 3, x + tw + 4, y + th + 3), fill=(0, 0, 0))
+    draw.text((x, y), label, fill=(255, 255, 255), font=font)
+    return out
+
+
 def _load_set_dirs(sets_manifest: Path) -> list[Path]:
     if not sets_manifest.exists():
         raise FileNotFoundError(f"Sets manifest not found: {sets_manifest}")
@@ -84,25 +99,27 @@ def main() -> None:
         raise ValueError(f"No RGB PNGs found in {args.rgb_dir}")
 
     # Build ordered stills per source image: RGB first, then each random-band set.
-    ordered_paths: list[Path] = []
+    ordered_items: list[tuple[Path, str]] = []
     for rgb_path in rgb_pngs:
-        ordered_paths.append(rgb_path)
+        ordered_items.append((rgb_path, "RGB"))
         for set_dir in set_dirs:
             candidate = set_dir / rgb_path.name
             if not candidate.exists():
                 raise FileNotFoundError(f"Missing matching quicklook: {candidate}")
-            ordered_paths.append(candidate)
+            ordered_items.append((candidate, set_dir.name.replace("_quicklooks_nme_flights", "")))
 
     # Preload and normalize all still images to one canvas size.
     resized: list[Image.Image] = []
-    for p in ordered_paths:
+    labels: list[str] = []
+    for p, label in ordered_items:
         with Image.open(p) as im:
             im = im.convert("RGB")
             im = _resize_keep_aspect(im, args.max_width)
             resized.append(im.copy())
+            labels.append(label)
     canvas_width = max(im.width for im in resized)
     canvas_height = max(im.height for im in resized)
-    stills = [_pad_to_canvas(im, canvas_width, canvas_height) for im in resized]
+    stills = [_with_label(_pad_to_canvas(im, canvas_width, canvas_height), lab) for im, lab in zip(resized, labels)]
 
     step_ms = int(round(args.seconds_per_step * 1000.0))
     fade_ms_total = int(round(args.fade_seconds * 1000.0))
